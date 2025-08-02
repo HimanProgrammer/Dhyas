@@ -18,8 +18,8 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="text-end p-3 bg-light">
-      <button onClick={toggleLanguage} className="btn btn-outline-primary btn-sm">
+    <div className="text-end p-3 text-light">
+      <button onClick={toggleLanguage} className="btn btn-outline-light btn-sm">
         {lang === 'en' ? 'English' : 'मराठी'}
       </button>
     </div>

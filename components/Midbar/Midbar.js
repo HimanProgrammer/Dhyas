@@ -8,7 +8,7 @@ const Midbar = () => {
         window.scrollTo(10, 0);
     }
     return (
-        <div className="midbar fixed-top">
+        <div className="midbar">
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-lg-3 col-12">

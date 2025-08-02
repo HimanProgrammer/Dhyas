@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import heroData from '../../data/hero3Content.json';
 
-const HeroSlider = () => {
+const hero3 = () => {
   const [lang, setLang] = useState('en');
   const [slides, setSlides] = useState([]);
 
@@ -81,4 +81,4 @@ const HeroSlider = () => {
   );
 };
 
-export default HeroSlider;
+export default hero3;

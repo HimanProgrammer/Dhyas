@@ -4,7 +4,7 @@ import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 const HeaderTopbar = (props) => {
     return (
-        <div className="topbar sticky-top">
+        <div className="topbar fixed-top">
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">

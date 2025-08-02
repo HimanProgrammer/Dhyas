@@ -11,7 +11,7 @@ export default function Navbar(props) {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const className = scroll >  0 ? "fixed-top active" : "fixed-navbar";
+    const className = scroll > 80 ? "fixed-navbar active" : "fixed-navbar";
 
     return (
         <div className={className}>
