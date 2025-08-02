@@ -13,8 +13,9 @@ const ClickHandler = () => {
 const CtaSection = (props) => {
     return (
         <section className={"" +props.hclass}>
-            <div className="container">
-                <div className="content">
+         
+            <div className="container ">
+                <div className="content "> 
                     <span>Compassion in Action: Join Us Today</span>
                     <h3>children need your help
                         by donating today</h3>

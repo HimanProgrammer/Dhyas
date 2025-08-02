@@ -1339,7 +1339,8 @@
 .cta-section {
     position: relative;
     text-align: center;
-    padding: 140px 0 190px;
+    padding: 140px 0 190px; 
+    background-clip: content-box;
     background: url(/images/cta-bg.jpg) center / cover no-repeat;
     z-index: 1;
 
