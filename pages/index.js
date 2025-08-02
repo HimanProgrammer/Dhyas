@@ -23,16 +23,16 @@ const HomePage = () => {
             <Navbar hclass={'wpo-site-header'}  Logo={Logo} />
             <Hero hclass={'wpo-hero-slider'} />
             {/* <PartnerSection hclass={'partners-section'} /> */}
-            <FunFact />
+            {/* <FunFact /> */}
             <About hclass={'about-section section-padding'}/>
             <ServiceSection  />
             {/* <CausesSection hclass={"causes-section section-padding pt-0"} /> */}
             <CtaSection hclass={'cta-section'}/>
             {/* <ProjectSection hclass={'project-section section-padding'}/>  */}
-            {/* <Testimonial tClass={'testimonial-section'} /> */}
+            <Testimonial tClass={'testimonial-section'} />
             {/* <ProcessSection /> */}
             {/* <InstagamSection hclass={'instagam-section section-padding pb-0'}/> */}
-            <EventSection />
+            {/* <EventSection /> */}
             {/* <BlogSection tClass={'blog-section section-padding'}/> */}
             <Footer />
             <Scrollbar /> 
