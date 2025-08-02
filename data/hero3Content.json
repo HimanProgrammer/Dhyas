@@ -1,0 +1,88 @@
+{
+  "en": {
+    "slides": [
+      {
+        "id": 1,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "Happy kids",
+        "tagline": "We are always open for children",
+        "title": "Building a Brighter",
+        "highlight": "Future Together",
+        "buttonText": "About Us",
+        "phone": {
+          "title": "Call Us Now",
+          "number": "+025 757 576 560"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "Empowering Communities",
+        "tagline": "Empowering Communities",
+        "title": "Together We Can",
+        "highlight": "Make a Difference",
+        "buttonText": "Get Involved",
+        "phone": {
+          "title": "Call Us Now",
+          "number": "+025 757 576 560"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "Sustainable Development",
+        "tagline": "Sustainable Development",
+        "title": "Join Our Mission",
+        "highlight": "For a Better Tomorrow",
+        "buttonText": "Learn More",
+        "phone": {
+          "title": "Call Us Now",
+          "number": "+025 757 576 560"
+        }
+      }
+    ]
+  },
+  "mr": {
+    "slides": [
+      {
+        "id": 1,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "आनंदी मुले",
+        "tagline": "आम्ही नेहमी मुलांसाठी खुले आहोत",
+        "title": "एक उज्ज्वल भवितव्य",
+        "highlight": "एकत्र बांधणी",
+        "buttonText": "आमच्याबद्दल",
+        "phone": {
+          "title": "आता कॉल करा",
+          "number": "+०२५ ७५७ ५७६ ५६०"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "समुदाय सक्षमीकरण",
+        "tagline": "समुदाय सक्षमीकरण",
+        "title": "एकत्रितपणे आपण",
+        "highlight": "फरक करू शकतो",
+        "buttonText": "सहभाग घ्या",
+        "phone": {
+          "title": "आता कॉल करा",
+          "number": "+०२५ ७५७ ५७६ ५६०"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/images/slider/slide1.jpg",
+        "alt": "शाश्वत विकास",
+        "tagline": "शाश्वत विकास",
+        "title": "आमच्या मिशनमध्ये सामील व्हा",
+        "highlight": "उत्तम उद्याच्या साठी",
+        "buttonText": "अधिक जाणून घ्या",
+        "phone": {
+          "title": "आता कॉल करा",
+          "number": "+०२५ ७५७ ५७६ ५६०"
+        }
+      }
+    ]
+  }
+}

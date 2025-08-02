@@ -1,0 +1,16 @@
+{
+  "en": {
+    "selectLanguage": "Select Language",
+    "options": {
+      "en": "English",
+      "mr": "Marathi"
+    }
+  },
+  "mr": {
+    "selectLanguage": "भाषा निवडा",
+    "options": {
+      "en": "इंग्रजी",
+      "mr": "मराठी"
+    }
+  }
+}

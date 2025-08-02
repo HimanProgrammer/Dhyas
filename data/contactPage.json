@@ -1,0 +1,26 @@
+{
+  "en": {
+    "addressHeading": "address line",
+    "addressText": "Bowery St, New York, 37 USA\nNY 10013,USA",
+    "phoneHeading": "Phone Number",
+    "phoneText": "+1255 - 568 - 6523 4374-221\n+1255 - 568 - 6523",
+    "emailHeading": "Address",
+    "emailText": "contact@aidUs.com\ninfo@aidUs.com",
+    "getInTouch": "Get in touch",
+    "getInTouchDesc": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arc dolor.",
+    "formTitle": "Fill Up The Form",
+    "formNote": "Your email address will not be published. Required fields are marked *"
+  },
+  "mr": {
+    "addressHeading": "पत्ता",
+    "addressText": "बॉवेरी स्ट्रीट, न्यूयॉर्क, ३७ यूएसए\nएनवाय १००१३, यूएसए",
+    "phoneHeading": "फोन नंबर",
+    "phoneText": "+१२५५ - ५६८ - ६५२३ ४३७४-२२१\n+१२५५ - ५६८ - ६५२३",
+    "emailHeading": "ईमेल",
+    "emailText": "contact@aidUs.com\ninfo@aidUs.com",
+    "getInTouch": "संपर्क करा",
+    "getInTouchDesc": "आम्ही तुमचं सहकार्य आणि संवाद दोन्हींचं स्वागत करतो.आपल्या प्रश्नांची उत्तरे देण्यासाठी आणि आमच्या उपक्रमांमध्ये सहभागी होण्यासाठी आम्ही नेहमीच उपलब्ध आहोत. तुमचं मत आणि सूचना आमच्यासाठी महत्त्वाची आहेत.",
+    "formTitle": "फॉर्म भरा",
+    "formNote": "तुमचा ईमेल पत्ता प्रकाशित केला जाणार नाही. आवश्यक फील्ड्स चिन्हांकित आहेत *"
+  }
+}

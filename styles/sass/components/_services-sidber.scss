@@ -1,0 +1,137 @@
+.service-sidebar {
+    margin-right: 10px;
+
+    @media (max-width:1199px) {
+        margin: 0;
+    }
+
+    @media (max-width: 991px) {
+        margin-top: 50px;
+        max-width: 450px;
+    }
+}
+
+.service-catagory ul li {
+    margin-bottom: 13px;
+}
+
+.service-catagory ul li a {
+    border-radius: 10px;
+    background: #F1F1F1;
+    color: #16171A;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+    display: block;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    position: relative;
+
+    @media (max-width:575px) {
+        padding: 10px 20px;
+    }
+
+    i {
+        width: 32px;
+        height: 32px;
+        line-height: 36px;
+        text-align: center;
+        color: $theme-primary-color;
+        margin-right: 20px;
+
+        @media (max-width:575px) {
+           margin-right: 10px;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        right: 40px;
+        top: 33px;
+        transform: translateY(-50%);
+        content: "\f123";
+        font-family: flaticon_aidus !important;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s ease-in-out;
+        @media (max-width:575px) {
+          right: 20px;
+        }
+    }
+
+    &:hover,
+    &.active {
+        background: $theme-primary-color-s2;
+        color: $white;
+
+        &::before {
+            opacity: 1;
+            visibility: visible;
+        }
+
+    }
+}
+
+.service-info {
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.87);
+
+    .icon {
+        width: 88px;
+        height: 76px;
+        line-height: 76px;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.09);
+        color: $white;
+        font-size: 35px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+
+    h2 {
+        color: #FFF;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 36px;
+        max-width: 244px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+    }
+
+    span {
+        color: #FFF;
+        font-family: $heading-font;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 1.95px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+
+
+    .num {
+        span {
+            border-radius: 24px;
+            background: $theme-primary-color;
+            color: #FFF;
+            text-align: center;
+            font-family: $heading-font;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 32px;
+            display: block;
+            padding: 8px 10px;
+        }
+    }
+
+}

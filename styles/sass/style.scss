@@ -1,0 +1,161 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     AidUs – Charity Nonprofit HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 partners
+	3.3 funfact
+	3.4 about 
+	3.5 events
+	3.6 service 
+	3.7 causes
+	3.8 cta
+	3.9 project
+	3.10 testimonial
+	3.11 process
+	3.12 instagam
+	3.13 blog
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 register
+   5.2 about-section-s2
+   5.3 service-section-s2
+   5.4 causes-section-s2
+   5.5  become_volunteer
+   5.6 service-section-s3
+   5.7 GetQuate-section
+   5.8 volunteer-section
+   5.9 project-section
+   5.10 testimonial-section-s2
+   5.11 instagam-section-s2
+   5.12 cta-section-s2
+   5.13 partners-section-s2
+   5.14 blog-section-s2 
+   5.15 cta-section-s3
+
+6. Home-style-3
+   6.1 features-section
+   6.2 about-section-s3
+   6.3 funfact-section 
+   6.4 service-section-s4
+   6.5 causes-section-s3
+   6.6 get-quate-section
+   6.7 process-section-s3
+   6.8 partners-section-s3
+   6.9 volunteer-section-s2
+   6.10 testimonial-section-s3
+   6.11 blog-section-s3
+   6.12 contact-map-section
+   6.13 donate-section
+   6.14 project-page
+
+7. service-single-page
+
+8. project-single-page
+
+9. shop-page
+
+10. shop-single-page
+
+11. cart-page-style
+
+12. checkout-page-style
+
+13. volunteer-page
+
+14. team-single
+
+15. donation-page-area
+
+16. event-details-page
+
+17. case-details-area
+
+18. blog-pg-section
+
+19. blog-single-section
+
+20. contact-page
+
+21. error-404-section
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+@import "components/services-sidber";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/home-style2";
+@import "page/home-style3";
+@import "page/service-single";
+@import "page/project-single";
+@import "page/shop";
+@import "page/shop-single";
+@import "page/cart";
+@import "page/checkout";
+@import "page/volunteer";
+@import "page/volunteer-single";
+@import "page/donate";
+@import "page/event-single";
+@import "page/cause-single";
+
+
+@import "page/_blog";
+@import "page/_blog-single";
+
+@import "page/_contact";
+@import "page/_error-404";
+
+
+
+

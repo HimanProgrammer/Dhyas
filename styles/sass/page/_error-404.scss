@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+21. error-404-section
+--------------------------------------------------------------*/
+.error-404-section {
+    text-align: center;
+
+    .error-message {
+        margin-top: 70px;
+        padding: 0 200px;
+
+        @include media-query(991px) {
+            margin-top: 50px;
+            padding: 0 100px;
+        }
+
+        @include media-query(767px) {
+            padding: 0;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 58px;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+
+            @media (max-width:991px) {
+                font-size: 40px;
+                line-height: 45px;
+                margin-bottom: 40px;
+            }
+        }
+
+        p {
+            margin-bottom: 1.8em;
+        }
+    }
+
+}

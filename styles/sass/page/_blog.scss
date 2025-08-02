@@ -1,0 +1,263 @@
+/*--------------------------------------------------------------
+18. blog-pg-section
+--------------------------------------------------------------*/
+.blog-pg-section {
+	.blog-content {
+
+		.post {
+			margin-bottom: 70px;
+
+			@include media-query(991px) {
+				margin-bottom: 50px;
+			}
+
+			@include media-query(767px) {
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	.entry-meta {
+		list-style: none;
+		overflow: hidden;
+		margin: 35px 0;
+
+		@include media-query(767px) {
+			margin: 25px 0;
+		}
+
+
+
+		ul {
+			list-style: none;
+
+			li {
+				font-weight: 500;
+				font-size: 14px;
+				float: left;
+				text-transform: capitalize;
+				font-size: 15px;
+				font-weight: 500;
+
+				a {
+					color: #676A7D;
+
+					&:hover {
+						color: $theme-primary-color;
+					}
+				}
+
+				i {
+					position: relative;
+					margin-right: 3px;
+
+					&:before {
+						font-size: 16px;
+						line-height: 15px;
+						color: $theme-primary-color;
+					}
+				}
+
+				&+li {
+					margin-left: 20px;
+					padding-left: 20px;
+					position: relative;
+
+					&:before {
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+						content: "";
+						background: #676A7D;
+						width: 9px;
+						height: 1px;
+
+						@include media-query(440px) {
+							display: none;
+						}
+					}
+
+					@include media-query(440px) {
+						margin-left: 0;
+						padding-left: 0;
+					}
+				}
+
+				@include media-query(767px) {
+					font-size: 12px;
+				}
+
+				@include media-query(440px) {
+					float: none;
+					display: block;
+					margin-bottom: 5px;
+				}
+
+			}
+		}
+
+	}
+
+	.post {
+		h3 {
+			font-size: 34px;
+			line-height: 1.2em;
+			font-weight: 800;
+			margin: -0.27em 0 0.7em;
+			font-family: $heading-font;
+
+			@include media-query(991px) {
+				font-size: 25px;
+			}
+
+			@include media-query(767px) {
+				font-size: 22px;
+			}
+		}
+
+		h3 a {
+			color: $heading-color;
+		}
+
+		h3 a:hover {
+			color: $theme-primary-color;
+		}
+
+		p {
+			margin-bottom: 2em;
+			color: #5E5F63;
+
+			@include media-query(991px) {
+				font-size: 16px;
+			}
+		}
+
+		a.read-more {
+			text-align: center;
+			position: relative;
+			padding-right: 50px;
+			transition: all .3s ease-in-out;
+			text-transform: uppercase;
+			color: #132047;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 22px;
+			letter-spacing: 2.52px;
+			text-transform: uppercase;
+
+			&::before {
+				position: absolute;
+				right: 5px;
+				top: 50%;
+				transform: translateY(-50%);
+				font-family: flaticon_aidus !important;
+				content: "\f137";
+				color: #04010C;
+				font-size: 30px;
+				transition: all .3s ease-in-out;
+			}
+
+			&::after {
+				position: absolute;
+				content: '';
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				border-radius: 100px;
+				border: 1px solid #BDC2C6;
+				width: 22px;
+				height: 20px;
+				transition: all .3s ease-in-out;
+			}
+
+
+		}
+	}
+
+
+	.entry-media {
+		position: relative;
+
+		span {
+			position: absolute;
+			left: 16px;
+			top: 16px;
+			color: #FFF;
+			text-align: center;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 24px;
+			background: $theme-primary-color;
+			border-radius: 10px;
+			display: inline-block;
+			padding: 10px 20px;
+
+			@media (max-width:767px) {
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+
+
+}
+
+.blog-pg-left-sidebar {
+	.blog-sidebar {
+		@include widther(1200px) {
+			padding-right: 45px;
+			padding-left: 0;
+		}
+	}
+}
+
+.blog-pg-fullwidth {
+	.blog-content {
+		@include widther(1200px) {
+			padding: 0;
+		}
+	}
+}
+
+
+
+
+@-webkit-keyframes save-the-date-pulse {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: scale3d(0.95, 0.95, 0.95);
+		transform: scale3d(0.95, 0.95, 0.95);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes save-the-date-pulse {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: scale3d(0.95, 0.95, 0.95);
+		transform: scale3d(0.95, 0.95, 0.95);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}

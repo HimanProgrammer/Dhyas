@@ -1,0 +1,369 @@
+/*==========================================
+14. team-single
+===========================================*/
+
+.team-pg-area {
+    margin: 0 auto;
+
+    .team-inner {
+        position: relative;
+        z-index: 1;
+
+        .pr-shape-1 {
+            position: absolute;
+            left: 60px;
+            bottom: 0;
+            z-index: -1;
+
+            @media(max-width:1650px) {
+                opacity: .3;
+            }
+
+            @media(max-width:991px) {
+                display: none;
+            }
+        }
+
+
+    }
+}
+
+.team-info-img {
+    padding: 40px;
+    box-shadow: 0px 6px 20.1px 4.9px rgba(176, 191, 238, .12);
+    position: relative;
+    z-index: 1;
+    background: $white;
+
+    .shape {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+
+        img {
+            width: unset;
+            height: unset;
+        }
+    }
+
+
+    img {
+        width: 100%;
+        height: 565px;
+        object-fit: cover;
+
+        @media(max-width:991px) {
+            height: 100%;
+        }
+    }
+}
+
+.team-info-text {
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 20px;
+        color: $theme-primary-color;
+    }
+
+
+    ul {
+        overflow: hidden;
+        padding-top: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        li {
+            font-size: 22px;
+
+            @media(max-width:575px) {
+                font-size: 15px;
+            }
+
+            a {
+                color: $dark-gray;
+                width: 36px;
+                height: 36px;
+                line-height: 40px;
+                display: block;
+                text-align: center;
+                @include rounded-border(50%);
+                font-size: 18px;
+                border: 1px solid $light;
+
+                &:hover {
+                    color: $white;
+                    background: $theme-primary-color;
+                }
+            }
+        }
+
+        li+li {
+            margin-left: 20px;
+
+            @media(max-width:1200px) {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+
+.at-progress {
+    box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
+    padding: 40px 0;
+
+    @media(max-width:991px) {
+        padding-bottom: 0;
+    }
+}
+
+.wpo-progress-single{
+    position: relative;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    .progress {
+        height: 10px;
+        background-color: #e9ecef;
+        .progress-bar{
+            background: $theme-primary-color;
+        }
+    }
+
+    .progress-number{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+
+.team-info-text {
+    padding-left: 30px;
+
+    @media(max-width: 991px) {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 27px;
+        font-weight: 700;
+        color: #1d2327;
+    }
+
+    .wpo-skill-progress {
+        padding: 0;
+        box-shadow: none;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+}
+
+.team-info-wrap ul {
+    padding-left: 0;
+}
+
+.exprience-wrap p {
+    color: #5d5851;
+}
+
+.exprience-wrap {
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+
+.education-area {
+    max-width: 600px;
+}
+
+.education-area ul {
+    list-style: none;
+}
+
+.education-area ul li {
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.education-area ul li:before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: $theme-primary-color;
+    content: "";
+}
+
+.ex-wiget {
+    padding-top: 60px;
+
+    ul {
+        list-style: none;
+    }
+}
+
+.ex-wiget h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.wpo-contact-area .quote-form {
+    padding-left: 0;
+    margin-left: -10px;
+}
+
+.wpo-contact-area {
+    button {
+        border-radius: 0;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.wpo-contact-area .quote-form .form-control {
+    height: 55px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: $theme-primary-color;
+    }
+}
+
+.wpo-contact-area .quote-form textarea.form-control {
+    height: 125px;
+}
+
+.half-col {
+    float: left;
+    width: 50%;
+    padding: 0 10px 5px;
+}
+
+.full-col {
+    padding: 0 10px 5px;
+}
+
+.exprience-area {
+    padding-top: 60px;
+}
+
+@media(max-width: 767px) {
+
+    .team-info-img {
+        padding: 25px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .custom-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .exprience-area {
+        padding-top: 30px;
+    }
+
+}
+
+@media(max-width: 575px) {
+    .half-col {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(max-width: 375px) {
+    .custom-grid {
+        float: none;
+        width: 100%;
+    }
+}
+
+.service-sidebar {
+
+    .wpo-contact-widget {
+        border: 0;
+        // background: url(../images/bg-2.jpg) no-repeat center center;
+        position: relative;
+        background-size: cover;
+        z-index: 1;
+
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(22, 57, 103, 0.9);
+            content: "";
+            z-index: -1;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+            text-align: left;
+            color: $white;
+            margin-bottom: 20px;
+
+            &::before {
+                background: $white;
+            }
+        }
+
+        p {
+            color: $white;
+            font-size: 18px;
+        }
+
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid $white;
+            font-size: 18px;
+            color: $white;
+            padding-right: 90px;
+            position: relative;
+            margin-top: 10px;
+
+            &::before {
+                font-family: "themify";
+                content: "\e628";
+                font-size: 18px;
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "proImg": "/images/product/1.jpg",
+    "title": "glass of juice",
+    "slug": "prayer-mat",
+    "price": "340.00",
+    "delPrice": "380.00",
+    "brand":"Tools",
+    "size":"Xl"
+  },
+  {
+    "id": 2,
+    "proImg": "/images/product/2.jpg",
+    "title": "Water filters",
+    "slug": "Perfume",
+    "price": "65.00",
+    "delPrice": "85.00",
+    "brand":"Tools",
+    "size":"XXl"
+  },
+  {
+    "id": 3,
+    "proImg": "/images/product/3.jpg",
+    "title": "Blown out flame",
+    "slug": "Muslim-Hat",
+    "price": "285.00",
+    "delPrice": "300.00",
+    "brand":"Tools",
+    "size":"L"
+  },
+  {
+    "id": 4,
+    "proImg": "/images/product/4.jpg",
+    "title": "night lamp",
+    "slug": "middle-eastern-dress",
+    "price": "176.00",
+    "delPrice": "178.00",
+    "brand":"Tools",
+    "size":"M"
+  },
+  {
+    "id": 5,
+    "proImg": "/images/product/5.jpg",
+    "title": "Thandcrafted",
+    "slug": "man-dress-Punjabi",
+    "price": "125.00",
+    "delPrice": "130.00",
+    "brand":"Tools",
+    "size":"XXl"
+  },
+  {
+    "id": 6,
+    "proImg": "/images/product/6.jpg",
+    "title": "Principles and Policies",
+    "slug": "Woman-Hijab",
+    "price": "548.00",
+    "delPrice": "600.00",
+    "brand":"Tools",
+    "size":"Xl"
+  }
+]
