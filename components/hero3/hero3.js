@@ -53,7 +53,7 @@ const hero3 = () => {
                   <div className="row">
                     <div className="col-md-8">
                       <p className="text-warning fw-bold mb-2">{slide.tagline}</p>
-                      <h1 className="display-4 fw-bold">
+                      <h1 className="display-4 fw-bold text-warning ">
                         {slide.title}{' '}
                         <span className="text-warning">{slide.highlight}</span>
                       </h1>
@@ -61,7 +61,7 @@ const hero3 = () => {
                         <Link href="/about" className="btn btn-warning btn-lg">
                           {slide.buttonText}
                         </Link>
-                        <div className="d-flex align-items-center gap-2 bg-white text-dark p-3 rounded shadow">
+                        <div className="d-flex align-items-center gap-2 bg-white text-warning p-3 rounded shadow">
                           <i className="flaticon-phone fs-3 text-warning" />
                           <div>
                             <h6 className="mb-0">{slide.phone?.title}</h6>
