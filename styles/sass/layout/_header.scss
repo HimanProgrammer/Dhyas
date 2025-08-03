@@ -397,6 +397,30 @@
 	visibility: visible;
 }
 
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000; /* On top of everything */
+  background-color: #2e8b57; /* Replace with your topbar color */
+  padding: 8px 	10px;
+  color: #fff;
+}
+
+
+.wpo-site-header,
+.wpo-header-style-2 {
+	position: fixed;
+	top: 74px;
+	/* height of topbar */
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .wpo-site-header .navigation>.container {
 	position: relative;
 }
@@ -422,6 +446,17 @@
 
 
 @media (max-width: 991px) {
+		.topbar {
+			padding: 10px 15px;
+			font-size: 14px;
+		}
+
+		.wpo-site-header,
+		.wpo-header-style-2 {
+			top: 110px; /* If topbar becomes taller on mobile */
+		}
+
+
 	.wpo-site-header .navigation {
 		padding: 10px 0;
 	}
@@ -1523,7 +1558,7 @@
 
 
 	/*navbar collaps less then 992px*/
-	@include media-query (991px) {
+	@include media-query (575px) {
 		.navbar-collapse.collapse {
 			display: none;
 		}
@@ -1554,6 +1589,37 @@
 		}
 	}
 
+	@include media-query (991px) {
+		.navbar-collapse.collapse {
+			display: inline-block;
+		}
+
+		.navbar-collapse.collapse.in {
+			display: block;
+		}
+
+		.navbar-header .collapse,
+		.navbar-toggle {
+			display: block;
+		}
+
+		.navbar-header {
+			float: none;
+		}
+
+		.navbar-right {
+			float: none;
+		}
+
+		.navbar-nav {
+			float: none;
+		}
+
+		.navbar-nav>li {
+			float: left;
+		}
+	}
+
 
 }
 
@@ -1577,6 +1643,17 @@
 }
 
 
+
+@media(max-width: 575px) {
+	.wpo-site-header #navbar>ul>li>a {
+		padding: 30px 15px;
+	}
+
+	.wpo-site-header {
+		padding: 0 10px;
+	}
+
+}
 
 
 @media(max-width: 1500px) {
@@ -1634,23 +1711,25 @@
 	}
 }
 
-@media(max-width:991px) {
+@media(max-width:575px) {
 
-	  .topbar {
+	.topbar {
 		display: block;
 		width: 100%;
-		position: relative; /* Ensure normal document flow */
+		position: relative;
+		/* Ensure normal document flow */
 		z-index: 9999;
-    	}
+	}
 
 
-	  .wpo-site-header,
-		.wpo-header-style-2 {
-			position: relative; /* Not fixed */
-			z-index: 99999;
-			margin-top: 0;
-			top: 0;
-		}
+	.wpo-site-header,
+	.wpo-header-style-2 {
+		position: relative;
+		/* Not fixed */
+		z-index: 99999;
+		margin-top: 0;
+		top: 0;
+	}
 
 }
 
@@ -1785,6 +1864,7 @@
 		@media (max-width:1500px) {
 			padding: 0 10px;
 		}
+		
 	}
 
 
@@ -1932,7 +2012,7 @@
 		background: $white;
 
 		@media (max-width:1799px) {
-			padding: 0 200px; 
+			padding: 0 200px;
 		}
 
 		@media (max-width:1700px) {
@@ -1944,7 +2024,7 @@
 		}
 
 		.sticky-header.sticky-on {
-			padding: 0 255px;
+			padding: 0 555px;
 
 			@media (max-width:1799px) {
 				padding: 0 200px;
@@ -1987,161 +2067,182 @@
 }
 
 .mobileMenu {
-    position: fixed;
-    left: -300px;
-    top: 0;
-    z-index: 9999;
-    height: 100vh;
-    width: 300px;
-    background: #18322E;
-    transition: all 0.3s ease 0s;
-    box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
-    overflow-x: auto;
-    overflow-y: scroll;
+	position: fixed;
+	left: -300px;
+	top: 0;
+	z-index: 9999;
+	height: 100vh;
+	width: 300px;
+	background: #18322E;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
+	overflow-x: auto;
+	overflow-y: scroll;
 }
-.responsivemenu .card-body{
-    background: #18322E;
+
+.responsivemenu .card-body {
+	background: #18322E;
 }
-.mobileMenu h2{
-    padding-left: 20px;
+
+.mobileMenu h2 {
+	padding-left: 20px;
 }
-.mobileMenu.show{
-    left: 0;
+
+.mobileMenu.show {
+	left: 0;
 }
+
 .showmenu {
-    position: relative;
-    top: 0;
-    z-index: 999;
-    cursor: pointer;
+	position: relative;
+	top: 0;
+	z-index: 999;
+	cursor: pointer;
 }
+
 .responsivemenu {
-    list-style: none;
-    padding-left: 0;
-    padding-top: 10px;
+	list-style: none;
+	padding-left: 0;
+	padding-top: 10px;
 }
+
 .responsivemenu li a,
 .responsivemenu li p,
-.responsivemenu ul{
-    display: block;
-    padding: 10px 35px;
-    font-size: 13px;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    cursor: pointer;
+.responsivemenu ul {
+	display: block;
+	padding: 10px 35px;
+	font-size: 13px;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
 }
-.responsivemenu li p{
-    position: relative;
-    margin-bottom: 0;
+
+.responsivemenu li p {
+	position: relative;
+	margin-bottom: 0;
 }
-.responsivemenu ul.subMenu{
-    padding-top: 0;
-    padding-left: 15px;
-    padding-right: 0;
+
+.responsivemenu ul.subMenu {
+	padding-top: 0;
+	padding-left: 15px;
+	padding-right: 0;
 }
-.responsivemenu ul.subMenu ul{
-    position: relative;
-    margin-bottom: 0;
-    padding-left: 0;
+
+.responsivemenu ul.subMenu ul {
+	position: relative;
+	margin-bottom: 0;
+	padding-left: 0;
 }
-.responsivemenu ul{
-    list-style: none;
+
+.responsivemenu ul {
+	list-style: none;
 }
+
 .responsivemenu ul p,
-.responsivemenu ul a{
-    color: #fff;
-    position: relative;
-    font-size: 13px;
+.responsivemenu ul a {
+	color: #fff;
+	position: relative;
+	font-size: 13px;
 }
 
-.responsivemenu ul p i{
-    position: absolute;
-    right: 0;
-    top: 5px;
+.responsivemenu ul p i {
+	position: absolute;
+	right: 0;
+	top: 5px;
 }
 
-.responsivemenu .card{
-  border:none
+.responsivemenu .card {
+	border: none
 }
-.responsivemenu .card-body{
-  padding-top: 0;
+
+.responsivemenu .card-body {
+	padding-top: 0;
 }
 
 
-.responsivemenu li a{
-    position: relative;
+.responsivemenu li a {
+	position: relative;
 }
-.responsivemenu li i{
-    position: absolute;
-    right: 20px;
-    top: 17px;
+
+.responsivemenu li i {
+	position: absolute;
+	right: 20px;
+	top: 17px;
 }
+
 .showmenu i {
-    font-size: 30px;
-    color: #fff;
+	font-size: 30px;
+	color: #fff;
 }
 
-.mobileMenu{
-    display: none;
+.mobileMenu {
+	display: none;
 }
-.showmenu{
-    display: none;
-}
-@media (max-width:992px){
-    .showmenu {
-        display: block;
-        width: 40px;
-        height: 36px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 5px;
-    }
 
-    .showmenu button:focus{
-        outline: none;
-        box-shadow: none;
-    }
-    .showmenu button span{
-        background-color: #fff;
-        width: 20px;
-        display: block;
-        height: 2px;
-        margin: 0 auto;
-        margin-bottom: 5px;
-    }
-    .mobileMenu{
-        display: block;
-    }
+.showmenu {
+	display: none;
+}
+
+@media (max-width:992px) {
+	.showmenu {
+		display: block;
+		width: 40px;
+		height: 36px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 5px;
+	}
+
+	.showmenu button:focus {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.showmenu button span {
+		background-color: #fff;
+		width: 20px;
+		display: block;
+		height: 2px;
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+
+	.mobileMenu {
+		display: block;
+	}
 }
 
 
 
 .middle-header-3 .showmenu {
-    top: 36px;
+	top: 36px;
 }
+
 .middle-header2 .showmenu {
-    top: 26px;
+	top: 26px;
 }
 
-.middle-header-3 .showmenu i{
-    color: #fff;
-}
-
-
-@media(max-width:450px){
-    .mobileMenu {
-        left: -260px;
-        width: 260px;
-    }
-    .responsivemenu li a, .responsivemenu li p {
-        font-size: 14px;
-        padding: 13px 25px;
-    }
+.middle-header-3 .showmenu i {
+	color: #fff;
 }
 
 
-.responsivemenu a:not([href]):not([class]), 
-.responsivemenu a:not([href]):not([class]):hover{
- color: #ddd;
+@media(max-width:450px) {
+	.mobileMenu {
+		left: -260px;
+		width: 260px;
+	}
+
+	.responsivemenu li a,
+	.responsivemenu li p {
+		font-size: 14px;
+		padding: 13px 25px;
+	}
+}
+
+
+.responsivemenu a:not([href]):not([class]),
+.responsivemenu a:not([href]):not([class]):hover {
+	color: #ddd;
 }

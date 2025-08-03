@@ -13,7 +13,7 @@ const ClickHandler = () => {
 const CtaSection = (props) => {
     return (
         <section className={"" +props.hclass}>
-         
+         <div className="overlay"></div>
             <div className="container ">
                 <div className="content "> 
                     <span>Compassion in Action: Join Us Today</span>
