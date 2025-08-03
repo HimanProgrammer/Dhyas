@@ -1,4 +1,14 @@
 /* 1.1	Theme Reset Style */
+/* Prevent horizontal scroll on mobile */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Ensure all elements respect the box model */
+* {
+  box-sizing: border-box;
+}
+
 html {
     font-size: $base-font-size + px;
 }
@@ -15,6 +25,7 @@ body {
     @include media-query( 767px ) {
         font-size: 14px;
     }
+
 }
 
 p {

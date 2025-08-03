@@ -1349,8 +1349,18 @@
         overflow: hidden;
     }
 
+    .overlay {
+    display: none;
+    }
+    
     @media (max-width:767px) {
         padding: 80px 0 80px;
+
+          .overlay {
+                display: block;
+                background: rgba(0, 0, 0, 0.5);
+            }
+
     }
 
     .content {

@@ -1636,10 +1636,22 @@
 
 @media(max-width:991px) {
 
-	.wpo-site-header,
-	.wpo-header-style-2 {
-		z-index: 99999;
-	}
+	  .topbar {
+		display: block;
+		width: 100%;
+		position: relative; /* Ensure normal document flow */
+		z-index: 9999;
+    	}
+
+
+	  .wpo-site-header,
+		.wpo-header-style-2 {
+			position: relative; /* Not fixed */
+			z-index: 99999;
+			margin-top: 0;
+			top: 0;
+		}
+
 }
 
 .wpo-site-header .navigation.sticky-header {
@@ -1921,17 +1933,14 @@
 
 		@media (max-width:1799px) {
 			padding: 0 200px; 
-			margin-top: 52px;
 		}
 
 		@media (max-width:1700px) {
 			padding: 0 100px;
-			margin-top: 52px;
 		}
 
 		@media (max-width:1500px) {
 			padding: 0 10px;
-			margin-top: 132px;
 		}
 
 		.sticky-header.sticky-on {
