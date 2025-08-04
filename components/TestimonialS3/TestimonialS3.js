@@ -67,7 +67,7 @@ const settings = {
 const TestimonialS3 = () => {
     return (
         <section className="testimonial-section-s3">
-            <div className="container">
+            <div className="container mt-10">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
                         <div className="left-img">

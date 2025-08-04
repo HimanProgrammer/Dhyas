@@ -81,7 +81,7 @@ const Testimonial = (props) => {
     return (
 
         <section className={"" + props.tClass}>
-            <div className="container">
+            <div className="container mt-10">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-12">
                         <div className="section-title">
