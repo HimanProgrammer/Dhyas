@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import serviceContent from '../../data/serviceSectionData.json';
 import servicesData from '../../data/services.json';
-import footerData from '../../data/footerData.json';
 
 import shape1 from '/public/images/f-shape1.svg';
 import shape2 from '/public/images/f-shape-2.svg';

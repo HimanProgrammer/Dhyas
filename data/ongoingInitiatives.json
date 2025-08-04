@@ -1,0 +1,22 @@
+{
+  "en": {
+    "title": "Ongoing Initiatives",
+    "initiatives": [
+      {
+        "name": "Arogyawari – A Drive to Understand and Act",
+        "description": "‘Arogyawari’ is our flagship outreach initiative, where we connect directly with rural communities to understand their grassroots challenges. Under this campaign, we organize free medical camps, conduct health screenings, and engage in dialogue with local stakeholders to identify core issues and deliver practical, long-term solutions.",
+        "image": "/images/initiatives/arogyawari.jpg"
+      }
+    ]
+  },
+  "mr": {
+    "title": "सध्याच्या उपक्रम",
+    "initiatives": [
+      {
+        "name": "आरोग्यवारी – समजून घेणे आणि कृती करणे",
+        "description": "‘आरोग्यवारी’ हा आमचा प्रमुख उपक्रम आहे जिथे आम्ही ग्रामीण भागांशी थेट संवाद साधतो. आम्ही आरोग्य शिबिरे आयोजित करतो, आरोग्य तपासणी करतो आणि स्थानिक लोकांशी संवाद साधून त्यांच्या समस्यांवर उपाय शोधतो.",
+        "image": "/images/initiatives/arogyawari.jpg"
+      }
+    ]
+  }
+}

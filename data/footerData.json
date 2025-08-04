@@ -6,7 +6,14 @@
       "placeholder": "Your email"
     },
     "services": {
-      "title": "Services"
+      "title": "Services",
+      "links": [
+        { "label": "Home", "href": "/" },
+        { "label": "About us", "href": "/about" },
+        { "label": "Service", "href": "/service" },
+        { "label": "Blog", "href": "/blog" },
+        { "label": "Contact us", "href": "/contact" }
+      ]
     },
     "usefulLinks": {
       "title": "Useful links",

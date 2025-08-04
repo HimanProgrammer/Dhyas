@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+  Ongoing Initiatives Section
+--------------------------------------------------------------*/
+.ongoing-initiatives {
+  .initiatives-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .initiative-item {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+    .initiative-image {
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: auto;
+      }
+    }
+
+    .initiative-text {
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+

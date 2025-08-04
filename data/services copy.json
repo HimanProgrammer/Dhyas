@@ -1,0 +1,77 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "title": "Healthcare",
+      "subtitle": "",
+      "description": "Free medical check-ups, medicine distribution, and awareness camps in underserved regions.",
+      "slug": "Fund-Raised-&-Donation"
+    },
+    {
+      "id": 2,
+      "title": "Education",
+      "subtitle": "",
+      "description": "Support for schoolchildren through study materials, digital learning tools, and special guidance.",
+      "slug": "Medical-Treatment-Help"
+    },
+    {
+      "id": 3,
+      "title": "Water Managements",
+      "subtitle": "",
+      "description": "Watershed development, rainwater harvesting, and access to clean drinking water.",
+      "slug": "development-programs"
+    },
+    {
+      "id": 4,
+      "title": "Farmer Welfare",
+      "subtitle": "",
+      "description": "Training in modern and sustainable farming techniques, market access, and promotion of natural farming.",
+      "slug": "Child-medical-research"
+    },
+    {
+      "id": 5,
+      "title": "Women Empowerment",
+      "subtitle": "",
+      "description": "Skill development, self-help group support, and awareness on health and education.",
+      "slug": "Child-medical-research"
+    }
+  ],
+
+  "mr": [
+    {
+      "id": 1,
+      "title": "आरोग्य",
+      "subtitle": "",
+      "description": "ग्रामीण भागात मोफत आरोग्य तपासणी, औषध वितरण आणि आरोग्यविषयक जनजागृती.",
+      "slug": "Fund-Raised-&-Donation"
+    },
+    {
+      "id": 2,
+      "title": " शिक्षण ",
+      "subtitle": "",
+      "description": "शालेय विद्यार्थ्यांसाठी अभ्यास साहित्य, विशेष मार्गदर्शन व तंत्रज्ञान सुलभ शिक्षण.",
+      "slug": "Medical-Treatment-Help"
+    },
+    {
+      "id": 3,
+      "title": "जल व्यवस्थापन",
+      "subtitle": "",
+      "description": "पाणलोट क्षेत्र विकास, जलसंधारण प्रकल्प, स्वच्छ पाण्याची उपलब्धता.",
+      "slug": "development-programs"
+    },
+    {
+      "id": 4,
+      "title": "शेतकरी कल्याण",
+      "subtitle": "",
+      "description": "आधुनिक शेती पद्धतींचे प्रशिक्षण, मार्केट लिंकिंग व नैसर्गिक शेतीला प्रोत्साहन.",
+      "slug": "शेतकरी कल्याण"
+    },
+    {
+      "id": 5,
+      "title": "महिला सक्षमीकरण",
+      "subtitle": "",
+      "description": "स्वयंरोजगार प्रशिक्षण, बचत गट प्रोत्साहन, आरोग्य व शिक्षण जागरूकता.",
+      "slug": "women-empowerment"
+    }
+  ]
+}

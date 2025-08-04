@@ -40,10 +40,10 @@ const Footer = () => {
             <div className="wpo-upper-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        {/* <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget newsletter-s2">
-                                {/* <div className="widget-title">
-                                    <h3>{content?.footer?.newsletterTitle || 'Subscribe Newsletter'}</h3>
+                                <div className="widget-title">
+                                    <h3>{content?.footer?.newsletterTitle || content.newsletter.}</h3>
                                 </div>
                                 <p>{content?.footer?.newsletterDesc || 'Subscribe to our updates for latest services and news.'}</p>
                                 <form className="form-fild">
@@ -57,23 +57,27 @@ const Footer = () => {
                                     <button type="button" onClick={handleReset}>
                                         <i className="flaticon-right-arrow"></i>
                                     </button>
-                                </form> */}
-                                <div className="widget">
-                                    <div className="footer-logo mb-30">
-                                    <h3>{content.newsletter.title}</h3>
-                                    </div>
-                                    <p>{content.newsletter.description}</p>
-                                    <form className="newsletter-form">
-                                    <input
-                                        type="email"
-                                        placeholder={content.newsletter.placeholder}
-                                    />
-                                    <button type="submit">
-                                        <i className="fa fa-paper-plane"></i>
-                                    </button>
-                                    </form>
-                                </div>
+                                </form>
                             </div>
+                        </div> */}
+
+                        {/* Newsletter */}
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                        <div className="widget">
+                            <div className="footer-logo mb-30">
+                            <h3>{content.newsletter.title}</h3>
+                            </div>
+                            <p>{content.newsletter.description}</p>
+                            <form className="newsletter-form">
+                            <input
+                                type="email"
+                                placeholder={content.newsletter.placeholder}
+                            />
+                            <button type="submit">
+                                <i className="fa fa-paper-plane"></i>
+                            </button>
+                            </form>
+                        </div>
                         </div>
 
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
@@ -93,31 +97,31 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                            <div className="widget link-widget">
-                                <div className="widget-title">
-                                    <h3>{content?.footer?.linksTitle || 'Useful Links'}</h3>
-                                </div>
-                                <ul>
-                                    <li><Link onClick={ClickHandler} href="/">{content?.footer?.home || 'Home'}</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/about">{content?.footer?.about || 'About Us'}</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">{content?.footer?.service || 'Service'}</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">{content?.footer?.blog || 'Blog'}</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">{content?.footer?.contact || 'Contact Us'}</Link></li>
-                                </ul>
-                            </div>
-                        </div>
+                    {/* Useful Links */}
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                    <div className="widget">
+                        <h3>{content.usefulLinks.title}</h3>
+                        <ul className="footer-links">
+                        {content.usefulLinks.links.map((link, idx) => (
+                            <li key={idx}>
+                            <Link href={link.href}>{link.label}</Link>
+                            </li>
+                        ))}
+                        </ul>
+                    </div>
+                    </div>
+
 
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget locations-widget">
                                 <div className="widget-title">
-                                    <h3>{content?.footer?.locationsTitle || 'Locations'}</h3>
+                                    <h3>{content?.footer?.locationsTitle || content.locations.title}</h3>
                                 </div>
-                                <p>{content?.footer?.locationAddress || '55 Main Street, 2nd block Malborne, Australia'}</p>
+                                <p>{content?.footer?.locationAddress || content.locations.address}</p>
                                 <ul>
-                                    <li>{content?.footer?.contact || 'Contact'}</li>
-                                    <li>{content?.footer?.email || 'support@logistika.com'}</li>
-                                    <li>{content?.footer?.phone || '+880 (123) 456 88'}</li>
+                                    <li>{content?.footer?.contact || content.locations.contact}</li>
+                                    <li>{content?.footer?.email || content.locations.email}</li>
+                                    <li>{content?.footer?.phone || content.locations.phone}</li>
                                 </ul>
                             </div>
                         </div>
@@ -157,6 +161,7 @@ const Footer = () => {
 }
 
 export default Footer;
+
 
 
 

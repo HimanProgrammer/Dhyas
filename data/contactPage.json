@@ -1,26 +1,52 @@
 {
   "en": {
-    "addressHeading": "address line",
-    "addressText": "Bowery St, New York, 37 USA\nNY 10013,USA",
-    "phoneHeading": "Phone Number",
-    "phoneText": "+1255 - 568 - 6523 4374-221\n+1255 - 568 - 6523",
-    "emailHeading": "Address",
-    "emailText": "contact@aidUs.com\ninfo@aidUs.com",
-    "getInTouch": "Get in touch",
-    "getInTouchDesc": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arc dolor.",
-    "formTitle": "Fill Up The Form",
-    "formNote": "Your email address will not be published. Required fields are marked *"
+    "office": [
+      {
+        "title": "Address Line",
+        "icon": "fi flaticon-home-address",
+        "lines": ["Bowery St, New York, 37 USA", "NY 10013, USA"]
+      },
+      {
+        "title": "Phone Number",
+        "icon": "fi flaticon-phone-call",
+        "lines": ["+1255 - 568 - 6523 4374-221", "+1255 - 568 - 6523"]
+      },
+      {
+        "title": "Email Address",
+        "icon": "fi flaticon-mail-1",
+        "lines": ["contact@aidUs.com", "info@aidUs.com"]
+      }
+    ],
+    "contact": {
+      "heading": "Get in touch",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arc dolor.",
+      "formHeading": "Fill Up The Form",
+      "formNote": "Your email address will not be published. Required fields are marked *"
+    }
   },
   "mr": {
-    "addressHeading": "पत्ता",
-    "addressText": "बॉवेरी स्ट्रीट, न्यूयॉर्क, ३७ यूएसए\nएनवाय १००१३, यूएसए",
-    "phoneHeading": "फोन नंबर",
-    "phoneText": "+१२५५ - ५६८ - ६५२३ ४३७४-२२१\n+१२५५ - ५६८ - ६५२३",
-    "emailHeading": "ईमेल",
-    "emailText": "contact@aidUs.com\ninfo@aidUs.com",
-    "getInTouch": "संपर्क करा",
-    "getInTouchDesc": "आम्ही तुमचं सहकार्य आणि संवाद दोन्हींचं स्वागत करतो.आपल्या प्रश्नांची उत्तरे देण्यासाठी आणि आमच्या उपक्रमांमध्ये सहभागी होण्यासाठी आम्ही नेहमीच उपलब्ध आहोत. तुमचं मत आणि सूचना आमच्यासाठी महत्त्वाची आहेत.",
-    "formTitle": "फॉर्म भरा",
-    "formNote": "तुमचा ईमेल पत्ता प्रकाशित केला जाणार नाही. आवश्यक फील्ड्स चिन्हांकित आहेत *"
+    "office": [
+      {
+        "title": "पत्ता",
+        "icon": "fi flaticon-home-address",
+        "lines": ["बॉवरी स्ट्रीट, न्यू यॉर्क, ३७ यूएसए", "एनवाय १००१३, यूएसए"]
+      },
+      {
+        "title": "फोन नंबर",
+        "icon": "fi flaticon-phone-call",
+        "lines": ["+१२५५ - ५६८ - ६५२३ ४३७४-२२१", "+१२५५ - ५६८ - ६५२३"]
+      },
+      {
+        "title": "ईमेल पत्ता",
+        "icon": "fi flaticon-mail-1",
+        "lines": ["contact@aidUs.com", "info@aidUs.com"]
+      }
+    ],
+    "contact": {
+      "heading": "संपर्क साधा",
+      "description": "लॉरम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर अ‍ॅडिपिसिंग एलिट, मॅटिस फॉसिबस ओडिओ, फ्यूजियात आर्क डोलर.",
+      "formHeading": "फॉर्म भरा",
+      "formNote": "तुमचा ईमेल पत्ता प्रकाशित केला जाणार नाही. आवश्यक फील्ड * ने चिन्हांकित आहेत."
+    }
   }
 }

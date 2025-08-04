@@ -6,8 +6,10 @@
 	justify-content: center;
 	flex-direction: column;
 	z-index: 1;
-	margin-top: -50px;
+    margin-top: 90px;
+    margin-bottom: -114px;
 
+	
 	@media(max-width: 767px) {
 		min-height: 350px;
 	}
