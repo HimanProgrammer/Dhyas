@@ -42,7 +42,14 @@
       "placeholder": "तुमचा ईमेल"
     },
     "services": {
-      "title": "सेवा"
+      "title": "सेवा",
+      "links": [
+        { "label": "मुख्यपृष्ठ", "href": "/" },
+        { "label": "आमच्याबद्दल", "href": "/about" },
+        { "label": "सेवा", "href": "/service" },
+        { "label": "ब्लॉग", "href": "/blog" },
+        { "label": "संपर्क", "href": "/contact" }
+      ]
     },
     "usefulLinks": {
       "title": "उपयुक्त लिंक्स",
