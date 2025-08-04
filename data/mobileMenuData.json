@@ -6,6 +6,12 @@
     
   },
   {
+    "id": 88,
+    "title": "About",
+    "link": "/about"
+   
+  },
+  {
     "id": 2,
     "title": "Pages",
     "link": "#",

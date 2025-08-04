@@ -1,0 +1,59 @@
+{
+  "en": {
+    "newsletter": {
+      "title": "Subscribe Newsletter",
+      "description": "These agencies specialize in leveraging various digital channels, such as social media advertising",
+      "placeholder": "Your email"
+    },
+    "services": {
+      "title": "Services"
+    },
+    "usefulLinks": {
+      "title": "Useful links",
+      "links": [
+        { "label": "Home", "href": "/" },
+        { "label": "About us", "href": "/about" },
+        { "label": "Service", "href": "/service" },
+        { "label": "Blog", "href": "/blog" },
+        { "label": "Contact us", "href": "/contact" }
+      ]
+    },
+    "locations": {
+      "title": "Locations",
+      "address": "55 Main Street, 2nd block Malborne, Australia",
+      "contact": "Contact",
+      "email": "support@logistika.com",
+      "phone": "+880 (123) 456 88"
+    },
+    "copyright": "© 2025 Tech - non profit. All rights reserved."
+  },
+
+  "mr": {
+    "newsletter": {
+      "title": "न्यूजलेटर सदस्यता",
+      "description": "ही एजन्सीज सोशल मीडिया जाहिरातीसारख्या विविध डिजिटल चॅनेल्सचा लाभ घेतात.",
+      "placeholder": "तुमचा ईमेल"
+    },
+    "services": {
+      "title": "सेवा"
+    },
+    "usefulLinks": {
+      "title": "उपयुक्त लिंक्स",
+      "links": [
+        { "label": "मुख्यपृष्ठ", "href": "/" },
+        { "label": "आमच्याबद्दल", "href": "/about" },
+        { "label": "सेवा", "href": "/service" },
+        { "label": "ब्लॉग", "href": "/blog" },
+        { "label": "संपर्क", "href": "/contact" }
+      ]
+    },
+    "locations": {
+      "title": "ठिकाणे",
+      "address": "५५ मेन स्ट्रीट, दुसरा ब्लॉक, मेलबॉर्न, ऑस्ट्रेलिया",
+      "contact": "संपर्क",
+      "email": "support@logistika.com",
+      "phone": "+८८० (१२३) ४५६ ८८"
+    },
+    "copyright": "© २०२५ tech - ना-नफा संस्था. सर्व हक्क राखीव."
+  }
+}

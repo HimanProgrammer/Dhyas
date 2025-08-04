@@ -109,3 +109,7 @@ const about = (props) => {
 };
 
 export default about;
+
+
+
+// ,"आमचे ध्येय"
