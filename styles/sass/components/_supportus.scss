@@ -1,0 +1,67 @@
+.support-section {
+  background-image: url('/images/support-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+
+  .support-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 80px 20px;
+  }
+
+  .support-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 40px;
+    }
+
+    .support-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+
+      @media (min-width: 600px) {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .btn-donate,
+      .btn-volunteer {
+        padding: 12px 28px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+      }
+
+      .btn-donate:hover {
+        background: #ffd700;
+        color: #000;
+        border-color: #ffd700;
+      }
+
+      .btn-volunteer:hover {
+        background: white;
+        color: #000;
+        border-color: white;
+      }
+    }
+  }
+}

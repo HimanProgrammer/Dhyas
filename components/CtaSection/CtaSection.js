@@ -34,10 +34,10 @@ const CtaSection = (props) => {
   return (
     <section className={`cta-section ${props.hclass || ''}`}>
       <div className="overlay"></div>
-      <div className="container">
+      <div className="container mt-10">
         <div className="content">
           <span>{content.tagline}</span>
-          <h3>{content.title}</h3>
+          <h3 className="pt-2 text-light p-2 .fs-1">{content.title}</h3>
           <Link onClick={ClickHandler} href="/become-volunteer" className="theme-btn">
             {content.button}
           </Link>
@@ -49,9 +49,9 @@ const CtaSection = (props) => {
       <div className="shape-1">
         <Image src={Shape2} alt="" />
       </div>
-      <div className="shape-2">
+      {/* <div className="shape-2">
         <Image src={Shape3} alt="" />
-      </div>
+      </div> */}
     </section>
   );
 };
