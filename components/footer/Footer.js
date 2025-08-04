@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import footerData from '../../data/FooterData.json';
+import footerData from '../../data/footerData.json';
 import Logo from '/public/images/logo.svg';
 
 const Footer = () => {
