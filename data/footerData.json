@@ -8,11 +8,11 @@
     "services": {
       "title": "Services",
       "links": [
-        { "label": "Home", "href": "/" },
-        { "label": "About us", "href": "/about" },
-        { "label": "Service", "href": "/service" },
-        { "label": "Blog", "href": "/blog" },
-        { "label": "Contact us", "href": "/contact" }
+        { "label": "Healthcare", "href": "/" },
+        { "label": "Education", "href": "/about" },
+        { "label": "Water Managements", "href": "/service" },
+        { "label": "Farmer Welfare", "href": "/blog" },
+        { "label": "Women Empowerment", "href": "/contact" }
       ]
     },
     "usefulLinks": {
@@ -44,11 +44,11 @@
     "services": {
       "title": "सेवा",
       "links": [
-        { "label": "मुख्यपृष्ठ", "href": "/" },
-        { "label": "आमच्याबद्दल", "href": "/about" },
-        { "label": "सेवा", "href": "/service" },
-        { "label": "ब्लॉग", "href": "/blog" },
-        { "label": "संपर्क", "href": "/contact" }
+        { "label": "आरोग्य", "href": "/" },
+        { "label": "शिक्षण", "href": "/about" },
+        { "label": "जल व्यवस्थापन", "href": "/service" },
+        { "label": "शेतकरी कल्याण", "href": "/blog" },
+        { "label": "महिला सक्षमीकरण", "href": "/contact" }
       ]
     },
     "usefulLinks": {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import footerData from '../../data/footerData.json';
-import Logo from '/public/images/logo.svg';
+import Logo from '/public/images/logo-2.svg';
 
 const Footer = () => {
   const [lang, setLang] = useState('en');
@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="logo widget-title">
                   <Image src={Logo} alt="footer logo" />
                 </div>
-                <h3>{content?.newsletter?.title || 'Subscribe Newsletter'}</h3>
+                <h3 className="text-light">{content?.newsletter?.title || 'Subscribe Newsletter'}</h3>
                 <p>{content?.newsletter?.description}</p>
                 <form className="newsletter-form">
                   <input
