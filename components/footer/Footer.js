@@ -112,7 +112,7 @@ const Footer = () => {
                 <ul>
                   <li>{content?.locations?.address}</li>
                   <li>{content?.locations?.contact}: {content?.locations?.email}</li>
-                  <li>{content?.locations?.email}</li>
+                  <li>{content?.locations?.phone}</li>
                 </ul>
               </div>
             </div>
