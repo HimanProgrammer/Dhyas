@@ -38,7 +38,10 @@ const CtaSection = (props) => {
         <div className="content">
           <span>{content.tagline}</span>
           <h3 className="pt-2 text-light p-2 .fs-1">{content.title}</h3>
-          <Link onClick={ClickHandler} href="/become-volunteer" className="theme-btn">
+          <Link onClick={ClickHandler} href="/donate" className="theme-btn1">
+            {content.button1}
+          </Link>
+          <Link onClick={ClickHandler} href="/become-volunteer" className="theme-btn1">
             {content.button}
           </Link>
         </div>

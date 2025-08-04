@@ -2,11 +2,14 @@
   "en": {
     "tagline": "Join Us Today",
     "title": "Small efforts. Big impact. Support us by donating, volunteering, or contributing resources for rural development.",
-    "button": "become volunteer"
+    "button": "become volunteer",
+    "button1": "Donate Us"
   },
   "mr": {
-    "tagline": "कृतीतून करुणा: आजच सामील व्हा",
-    "title": "एकत्रितपणे, आपण जीवन बदलू शकतो",
-    "button": "स्वयंसेवक बना"
+    "tagline": "आम्हाला सहकार्य करा ",
+    "title": "तुमचा छोटासा हातभारही कोणाचातरी आयुष्य बदलू शकतो! आर्थिक मदत, स्वयंसेवक म्हणून सहभाग, किंवा संसाधने पुरवून तुम्ही आमच्या कार्यात मोठे योगदान देऊ शकता.",
+    "button": "स्वयंसेवक बना",
+    "button1": "दान करा"
+     
   }
 }

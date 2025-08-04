@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import HeaderTopbarS3 from '../HeaderTopbarS3/HeaderTopbarS3';
 import Image from 'next/image';
-
+import Logo from '/public/images/logo.svg';
 
 
 
@@ -37,8 +37,8 @@ const HeaderS3 = (props) => {
                             </div>
                             <div className="col-lg-2 col-md-6 col-6">
                                 <div className="navbar-header">
-                                    <Link onClick={ClickHandler} className="navbar-brand" href="/home"><Image src={props.Logo}
-                                        alt="logo" /></Link>
+                                    <Link onClick={ClickHandler} className="navbar-brand" href="/home">
+                                    <Image src={Logo}alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-1 col-1">

@@ -37,13 +37,13 @@ const AboutS2 = (props) => {
           <div className="col-lg-6 col-12">
             <div className="about-image">
               <div className="image1"><Image src={About1} alt="" /></div>
-              <div className="image2"><Image src={About2} alt="" /></div>
+              {/* <div className="image2"><Image src={About2} alt="" /></div> */}
               <div className="shape-love"><Image src={Shape1} alt="" /></div>
-              <div className="text">
+              {/* <div className="text">
                 <h2>Since</h2>
                 <h3><CountUp end={1999} enableScrollSpy /></h3>
                 <div className="shape"><Image src={Shape2} alt="" /></div>
-              </div>
+              </div> */}
             </div>
           </div>
 

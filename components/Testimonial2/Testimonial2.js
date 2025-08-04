@@ -14,7 +14,7 @@ const Testimonial2 = (props) => {
 
     return (
         <section className={"" + props.tClass}>
-            <div className="container mt-10">
+            <div className="container">
                 <div className="testimonial-wrap testimonial-slider">
                     <div className="image slider-for">
                         <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)} arrows={false} fade={true}>

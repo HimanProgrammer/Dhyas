@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useRef } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/NavbarS3/NavbarS3';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';

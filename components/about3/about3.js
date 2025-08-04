@@ -37,15 +37,15 @@ const AboutS3 = (props) => {
                             <div className="image1">
                                 <Image src={About1} alt="" />
                             </div>
-                            <div className="image2">
+                            {/* <div className="image2">
                                 <Image src={About2} alt="" />
                                 <div className="shape">
                                     <Image src={Shape6} alt="" />
                                 </div>
-                            </div>
-                            <div className="image3">
+                            </div> */}
+                            {/* <div className="image3">
                                 <Image src={Shape7} alt="" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">

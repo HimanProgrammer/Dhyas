@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import supportData from '../../data/supportUs.json';
+import supportData from '../../data/supportus.json';
 
 const SupportUs = () => {
   const [lang, setLang] = useState('en');
