@@ -9,9 +9,9 @@
   }
 
   .initiative-item {
-    display: flex;
+    display: flex  ;
     gap: 2rem;
-    align-items: flex-start;
+    align-items:center;
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -19,7 +19,7 @@
 
     .initiative-image {
       flex: 1;
-      max-width:800px;
+      max-width:1200px;
 
       img {
         width: 100%;
@@ -29,7 +29,7 @@
     }
 
     .initiative-text {
-      flex: 2;
+      flex: 1;
 
       h3 {
         font-size: 1.5rem;
