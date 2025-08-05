@@ -27,7 +27,7 @@ const Contactpage = () => {
     }, []);
 
     return (
-        <section className="contact-page section-padding">
+        <section className="contact-page section-padding-contact">
             <div className="container">
                 <div className="office-info">
                     <div className="row">

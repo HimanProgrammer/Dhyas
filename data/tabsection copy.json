@@ -1,0 +1,19 @@
+{
+  "en": {
+    "tabs": ["Our Mission", "Our Vision", "About Founder"],
+    "tabContent": [
+      "Dhyas Trust is committed to the holistic upliftment of rural communities by addressing critical issues in healthcare, education, water management, farmer welfare, and women empowerment. Our mission is to build sustainable, inclusive solutions that enhance the quality of life and ensure long-term development for rural populations across India.",
+      "To create empowered, self-reliant rural communities where every individual has access to quality healthcare, education, water, and opportunities for growth. Through grassroots engagement and sustainable development initiatives like Argyawari, we envision a future where rural populations thrive with dignity, resilience, and equal opportunities.",
+      "Dr. Amol Annadate is a visionary leader, renowned pediatrician (MD Pediatrics), philanthropist, writer, and media voice for social and healthcare reforms. As the founder of Dhyas Trust, he has dedicated his life to the upliftment of rural communities through initiatives in healthcare, education, farmer welfare, water management, and women empowerment. Beyond his grassroots work, Dr. Annadate is also the founder of the Anand Group of Medical Colleges and Anand Multispeciality Hospital, institutions committed to delivering quality medical education and healthcare. A powerful speaker and socially conscious media personality, he regularly raises awareness on pressing issues affecting underserved populations. His ongoing initiative, Argyawari, reflects his deep commitment to understanding and addressing rural challenges through direct engagement, free medical camps, and sustainable development strategies. Dr. Annadate’s work continues to inspire a growing movement focused on equity, dignity, and holistic rural transformation."
+    ]
+  },
+  "mr": {
+    "tabs": ["आमचा ध्यास", "आमची दृष्टिकोन ", "संस्थापकांविषयी माहिती"],
+    "tabContent": [
+      "ग्रामीण भागातील गरजू नागरिकांच्या जीवनमानात सकारात्मक आणि शाश्वत बदल घडवण्यासाठी आम्ही आरोग्य, शिक्षण, पाणी व्यवस्थापन, शेतकरी कल्याण आणि महिलांच्या सक्षमीकरणावर लक्ष केंद्रित करतो...",
+      "ध्यास ट्रस्टचा दृष्टीकोन म्हणजे ग्रामीण भारताच्या सर्वांगीण, सशक्त आणि शाश्वत विकासासाठी एक दृढ पाऊल...",
+      "डॉ. अमोल अन्नादते हे एम.डी. पेडियाट्रिशियन असून समाजसेवा, आरोग्य, आणि ग्रामीण विकास क्षेत्रातील एक प्रेरणादायी व्यक्तिमत्व आहेत..."
+    ]
+  }
+}
+

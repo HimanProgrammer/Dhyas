@@ -1,0 +1,126 @@
+.box-tabs-container {
+  max-width: 100%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+
+  .tabs {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #ccc;
+
+    .tab {
+      padding: 14px 24px;
+      background:#FFF;
+      color: #000;
+      font-weight: 600;
+      margin-right: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      border-radius: 4px 4px 0 0;
+      border: 1px solid #F74F22;
+      border-bottom: none;
+
+      &:hover {
+        background: #F5f5f5;
+      }
+
+      &.active {
+        background:#F74F22;
+        color: #FFF;        
+        border: 1px solid #ccc;
+        border-bottom: none;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .tab-content {
+    border: 1px solid #ccc;
+    background: #F74F22;
+    padding: 35px;
+    border-radius: 0 0 4px 4px;
+    line-height: 1.6;
+    text-align: justify;
+
+    p{
+       color: #FFF;
+       font-weight:500;
+     }
+
+  }
+
+  .about-section-s41 {
+    padding-bottom: 0px;
+
+    @media (max-width:991px) {
+        padding-bottom: 10px;
+    }
+
+    @media (max-width:767px) {
+        padding-bottom: 10px;
+    }
+}
+
+
+
+    .about-image {
+        position: relative;
+
+        .img-1 {
+            width: 633px;
+            height: 575px;
+            position: relative;
+            background: url(/images/about/shape.png) no-repeat 50%;
+            background-size: cover;
+            margin-left: -100px;
+
+            @media (max-width:1199px) {
+                width: 533px;
+            }
+
+            @media (max-width:991px) {
+                width: 100%;
+                max-width: 633px;
+                height: 100%;
+                margin-left: 0;
+                margin-bottom: 100px;
+            }
+
+            @media (max-width:575px) {
+                margin-bottom: 70px;
+            }
+
+            @media (max-width:425px) {
+                margin-bottom: 50px;
+            }
+
+            img {
+                mix-blend-mode: lighten;
+            }
+        }
+
+        .img-2 {
+            position: absolute;
+            right: 184px;
+            bottom: -57px;
+
+            @media (max-width:425px) {
+                display: none;
+            }
+
+            img {
+                width: 220px;
+                height: 220px;
+                border-radius: 220px;
+                border: 7px solid #FFF;
+                background: lightgray 50% / cover no-repeat;
+                box-shadow: -4px 14px 20px 0px rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+
+
+}
+

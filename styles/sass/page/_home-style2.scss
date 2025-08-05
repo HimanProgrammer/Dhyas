@@ -344,6 +344,7 @@
             font-weight: 400;
             line-height: 28.8px;
             max-width: 626px;
+            text-align: justify;
         }
 
 
@@ -605,8 +606,21 @@
 
 }
 
+.about-section-s41 {
+    padding-bottom: 0px;
+
+    @media (max-width:991px) {
+        padding-bottom: 10px;
+    }
+
+    @media (max-width:767px) {
+        padding-bottom: 10px;
+    }
+}
+
+
 .about-section-s4 {
-    padding-bottom: 220px;
+    padding-bottom: 0px;
 
     @media (max-width:991px) {
         padding-bottom: 90px;

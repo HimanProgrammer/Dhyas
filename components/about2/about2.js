@@ -53,7 +53,7 @@ const AboutS2 = (props) => {
               <h3>{data.subHeading}</h3>
               <p>{data.paragraph}</p>
 
-              <div className="about-tab">
+              {/* <div className="about-tab">
                 <div className="tab">
                   {data.tabs.map((tabLabel, index) => (
                     <button
@@ -75,14 +75,14 @@ const AboutS2 = (props) => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
 
-      <div className="shape-2"><Image src={Shape7} alt="" /></div>
-      <div className="shape-3"><Image src={Shape8} alt="" /></div>
+      {/* <div className="shape-2"><Image src={Shape7} alt="" /></div>
+      <div className="shape-3"><Image src={Shape8} alt="" /></div> */}
     </section>
   );
 };
