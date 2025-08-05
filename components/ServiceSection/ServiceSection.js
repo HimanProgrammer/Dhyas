@@ -84,7 +84,7 @@ const ServiceSection = () => {
                 <ul>
                   <li>
                     <Image src={Img1} alt="service 1" />
-                    <VideoModal />
+                    {/* <VideoModal /> */}
                   </li>
                   <li><Image src={Img2} alt="service 2" /></li>
                   <li><Image src={Img3} alt="service 3" /></li>

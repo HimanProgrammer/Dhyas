@@ -1,0 +1,16 @@
+{
+  "en": {
+    "home": "Home",
+    "about": "About",
+    "donate": "Donate",
+    "contact": "Contact",
+    "donateNow": "Donate now"
+  },
+  "mr": {
+    "home": "मुखपृष्ठ",
+    "about": "आमच्याबद्दल",
+    "donate": "देणगी द्या",
+    "contact": "संपर्क",
+    "donateNow": "आत्ता देणगी द्या"
+  }
+}
