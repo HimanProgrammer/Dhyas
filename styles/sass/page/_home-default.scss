@@ -1408,13 +1408,15 @@
 
             @media (max-width:991px) {
                 font-size: 30px;
-                line-height: 50px;
+                line-height: 30px;
                 margin-bottom: 20px;
             }
 
-            @media (max-width:991px) {
-                font-size: 20px;
-                margin-bottom: 20px;
+            @media (max-width:767px) {
+                font-size: 15px;
+                margin-bottom: 180px;
+                line-height: 20px;
+
             }
         }
     }
