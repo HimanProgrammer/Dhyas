@@ -21,3 +21,5 @@ const ContactPage = () => {
         </Fragment>
     );
 };
+
+export default ContactPage;
