@@ -604,12 +604,14 @@
 	.wpo-site-header .x-close .first-angle {
 		position: absolute;
 		-webkit-transform: rotate(-44deg);
+		transform: rotate(-44deg);
 		top: 16px;
 		left: 10px;
 	}
 
 	.wpo-site-header .x-close .last-angle {
 		-webkit-transform: rotate(44deg);
+		transform: rotate(44deg);
 		position: absolute;
 		top: 16px;
 		right: 10px;
@@ -1526,12 +1528,14 @@
 		.x-close .first-angle {
 			position: absolute;
 			-webkit-transform: rotate(-44deg);
+			transform: rotate(-44deg);
 			top: 16px;
 			left: 10px;
 		}
 
 		.x-close .last-angle {
 			-webkit-transform: rotate(44deg);
+			transform: rotate(44deg);
 			position: absolute;
 			top: 16px;
 			right: 10px;

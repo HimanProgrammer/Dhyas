@@ -9,7 +9,9 @@
     "servicePageTitle": "Our Services",
     "servicePageSub": "Services",
     "donatePageTitle": "Donate Now",
-    "donatePageSub": "Donate"
+    "donatePageSub": "Donate",
+    "contactPageTitle": "Contact Us",
+    "contactPageSub": "Contact"
   },
   "mr": {
     "aboutPageTitle": "आमच्याबद्दल",
@@ -21,6 +23,8 @@
     "servicePageTitle": "आमच्या सेवा",
     "servicePageSub": "सेवा",
     "donatePageTitle": "आता देणगी द्या",
-    "donatePageSub": "देणगी"
+    "donatePageSub": "देणगी",
+    "contactPageTitle": "आमच्याशी संपर्क साधा",
+    "contactPageSub": "संपर्क"
   }
 }

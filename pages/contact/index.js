@@ -1,22 +1,23 @@
-import React, { Fragment } from 'react';
-import Navbar from '../../components/NavbarS3/NavbarS3';
-import PageTitle from '../../components/pagetitle/PageTitle'
-import Contactpage from '../../components/Contactpage/Contactpage'
-import Scrollbar from '../../components/scrollbar/scrollbar'
-import Footer from '../../components/footer/Footer';
-
-import Logo from '/public/images/logo-2.svg'
+import pageTitles from '../../data/pageTitles.json';
+import { useEffect, useState } from 'react';
 
 const ContactPage = () => {
+    const [lang, setLang] = useState('en');
+    const [titleText, setTitleText] = useState(pageTitles.en);
+
+    useEffect(() => {
+        const storedLang = localStorage.getItem('selectedLanguage') || 'en';
+        setLang(storedLang);
+        setTitleText(pageTitles[storedLang] || pageTitles.en);
+    }, []);
+
     return (
         <Fragment>
             <Navbar hclass={'wpo-site-header'} Logo={Logo} />
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'} />
-            <Contactpage />
+            <pageTitles pageTitle={titleText.contactPageTitle || 'Contact Us'} pagesub={titleText.contactPageSub || 'Contact'} />
+            <ContactPage />
             <Footer />
             <Scrollbar />
         </Fragment>
-    )
+    );
 };
-export default ContactPage;
-
