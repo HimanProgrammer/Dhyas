@@ -7,7 +7,7 @@
 	flex-direction: column;
 	z-index: 1;
     margin-top: 90px;
-    margin-bottom: -114px;
+    margin-bottom: -40px;
 
 	
 	@media(max-width: 767px) {
@@ -45,7 +45,7 @@
 		h3 {
 			color: #fff;
 			margin-bottom: 0px;
-			font-size: 80px;
+			font-size: 64px;
 			font-weight: 800;
 			line-height: 83px;
 			text-transform: capitalize;
@@ -73,7 +73,7 @@
 
 			@media(max-width: 767px) {
 				font-size: 30px;
-				line-height: 35px;
+				line-height: 48px;
 			}
 		}
 

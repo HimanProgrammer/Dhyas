@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import Navbar from '../../components/NavbarS3/NavbarS3';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
-import FooterS2 from '../../components/footerS2/FooterS2';
+import FooterS2 from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '/public/images/logo-2.svg';
 import CtaSectionS2 from '../../components/CtaSection/CtaSection';
