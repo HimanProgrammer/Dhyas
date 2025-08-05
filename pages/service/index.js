@@ -5,7 +5,7 @@ import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import FooterS2 from '../../components/footerS2/FooterS2';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '/public/images/logo-2.svg';
-import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
+import CtaSectionS2 from '../../components/CtaSection/CtaSection';
 // Optional Sections (you can uncomment as needed)
 // import BecomeSection from '../../components/BecomeSection/BecomeSection';
 // import ServiceSection3 from '../../components/ServiceSection3/ServiceSection3';
