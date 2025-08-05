@@ -1,42 +1,47 @@
-import React, { Fragment } from 'react';
+'use client';
+
+import React, { Fragment, useEffect, useState } from 'react';
 import Navbar from '../../components/NavbarS3/NavbarS3';
-import PageTitle from '../../components/pagetitle/PageTitle'
+import PageTitle from '../../components/pagetitle/PageTitle';
 import AboutS2 from '../../components/about2/about2';
-import FunFactS2 from '../../components/FunFactS2/FunFactS2';
-import ServiceSection4 from '../../components/ServiceSection4/ServiceSection4';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import DonateSection from '../../components/DonateSection/DonateSection';
-import TeamSection from '../../components/TeamSection/TeamSection';
-import ProjectSectionS2 from '../../components/ProjectSectionS2/ProjectSectionS2';
-import Testimonial2 from '../../components/Testimonial2/Testimonial2';
-import PartnerSectionS3 from '../../components/PartnerSectionS3/PartnerSectionS3';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg'
-import BlogSection from '../../components/BlogSection/BlogSection';
+import Logo from '/public/images/logo-2.svg';
 import TabSection from '../../components/tab/tabsection';
 
+import pageTitles from '../../data/pageTitles.json'; // ✅ Correct path
 
 const AboutPage = () => {
-    return (
-        <Fragment>
-            <Navbar hclass={'wpo-site-header'} Logo={Logo} />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
-            <AboutS2 hclass={'about-section-s4 section-padding'} />
-            <TabSection/>
-            {/* <FunFactS2 hclass={'funfact-section-s2'} /> */}
-            {/* <ServiceSection4 hclass={"service-section-s5 section-padding"} /> */}
-            <CtaSection hclass={'cta-section'} />
-            {/* <DonateSection /> */}
-            {/* <TeamSection hclass={'volunteer-section section-padding'} /> */}
-            {/* <ProjectSectionS2 hclass={'project-section-s2 section-padding'} /> */}
-            {/* <Testimonial2 tClass={'testimonial-section-s2 section-padding pt-50'} /> */}
-            {/* <PartnerSectionS3 /> */}
-            {/* <BlogSection tClass={'blog-section-s4 section-padding'} /> */}
-            <Footer />
-            <Scrollbar />
+  const [lang, setLang] = useState('en');
+  const [titleData, setTitleData] = useState(pageTitles.en);
 
-        </Fragment>
-    )
+  useEffect(() => {
+    const storedLang = localStorage.getItem('selectedLanguage') || 'en';
+    setLang(storedLang);
+    setTitleData(pageTitles[storedLang]);
+
+    const handleLangChange = () => {
+      const newLang = localStorage.getItem('selectedLanguage') || 'en';
+      setLang(newLang);
+      setTitleData(pageTitles[newLang]);
+    };
+
+    window.addEventListener('languageChange', handleLangChange);
+    return () => window.removeEventListener('languageChange', handleLangChange);
+  }, []);
+
+  return (
+    <Fragment>
+      <Navbar hclass="wpo-site-header" Logo={Logo} />
+      <PageTitle pageTitle={titleData.aboutPageTitle} pagesub={titleData.aboutPageSub} />
+      <AboutS2 hclass="about-section-s4 section-padding" />
+      <TabSection />
+      <CtaSection hclass="cta-section" />
+      <Footer />
+      <Scrollbar />
+    </Fragment>
+  );
 };
+
 export default AboutPage;

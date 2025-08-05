@@ -1,0 +1,40 @@
+{
+  "en": {
+    "donationTitle": "Make a Donation",
+    "donationAmount": "Enter Donation Amount",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "address": "Address",
+    "note": "Message",
+    "donateNow": "Donate Now",
+    "cardHolderName": "Card Holder Name",
+    "cardNumber": "Card Number",
+    "cvv": "CVV",
+    "expiryDate": "Expire Date",
+    "choosePayment": "Choose Your Payment Method",
+    "paymentByCard": "Payment By Card",
+    "offlineDonation": "Offline Donation",
+    "yourDonation": "Your Donation",
+    "details": "Details"
+  },
+  "mr": {
+    "donationTitle": "देणगी द्या",
+    "donationAmount": "देणगी रक्कम प्रविष्ट करा",
+    "firstName": "पहिलं नाव",
+    "lastName": "आडनाव",
+    "email": "ईमेल",
+    "address": "पत्ता",
+    "note": "संदेश",
+    "donateNow": "आता देणगी द्या",
+    "cardHolderName": "कार्डधारकाचे नाव",
+    "cardNumber": "कार्ड क्रमांक",
+    "cvv": "CVV",
+    "expiryDate": "कालबाह्यता तारीख",
+    "choosePayment": "तुमची पेमेंट पद्धत निवडा",
+    "paymentByCard": "कार्ड द्वारे पेमेंट",
+    "offlineDonation": "ऑफलाइन देणगी",
+    "yourDonation": "तुमची देणगी",
+    "details": "तपशील"
+  }
+}
