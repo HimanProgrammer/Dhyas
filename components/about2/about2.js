@@ -37,7 +37,7 @@ const AboutS2 = (props) => {
           <div className="col-lg-5 col-12">
             <div className="about-image">
               <div className="image1"><Image src={About1} alt="" /></div>
-              {/* <div className="image2"><Image src={About2} alt="" /></div> */}
+              <div className="image2"><Image src={About2} alt="" /></div>
               <div className="shape-love"><Image src={Shape1} alt="" /></div>
               {/* <div className="text">
                 <h2>Since</h2>

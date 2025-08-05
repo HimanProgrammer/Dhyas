@@ -4,6 +4,8 @@ import Image from 'next/image';
 import VideoModal from '../ModalVideo/VideoModal';
 import serviceContent from '../../data/serviceSectionData.json';
 import servicesData from '../../data/services.json';
+import About2 from '/public/images/about/about-4.png';
+import About3 from '/public/images/about/about-5.png';
 
 import Img1 from '/public/images/service/1.jpg';
 import Img2 from '/public/images/service/2.jpg';
@@ -83,11 +85,16 @@ const ServiceSection = () => {
               <div className="service-image">
                 <ul>
                   <li>
-                    <Image src={Img1} alt="service 1" />
+                    {/* <Image src={Img1} alt="service 1" /> */}
                     {/* <VideoModal /> */}
                   </li>
-                  <li><Image src={Img2} alt="service 2" /></li>
-                  <li><Image src={Img3} alt="service 3" /></li>
+                  <li><Image src={Img2} alt="service 2" />
+                  <div className="image2"><Image src={About3} alt="" /></div>
+                  </li>
+                  <li><Image src={Img3} alt="service 3" />
+                  <div className="image2"><Image src={About2} alt="" /></div>
+                  </li>
+                  <li></li>
                 </ul>
               </div>
             </div>
