@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import VideoModal from '../ModalVideo/VideoModal';
 import serviceContent from '../../data/serviceSectionData.json';
 import servicesData from '../../data/services.json';
 import About2 from '/public/images/about/about-4.png';
