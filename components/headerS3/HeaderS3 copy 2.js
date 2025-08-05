@@ -1,14 +1,14 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { connect } from 'react-redux';
 
 import HeaderTopbarS3 from '../HeaderTopbarS3/HeaderTopbarS3';
 import MobileMenu from '../MobileMenu/MobileMenu';
-import { removeFromCart } from '../../store/actions/action';
-import { totalPrice } from '../../utils';
+import { removeFromCart } from "../../store/actions/action";
+import { totalPrice } from "../../utils";
 
 import Logo from '/public/images/logo-2.svg';
 import headerLinks from '../../data/headerLinks.json';
@@ -44,13 +44,8 @@ const HeaderS3 = ({ carts, hclass }) => {
         <nav className="navigation navbar mt-60 navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <div className="row align-items-center">
+              
 
-              {/* Mobile Toggle */}
-              <div className="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
-                <MobileMenu />
-              </div>
-
-              {/* Logo */}
               <div className="col-lg-2 col-md-6 col-6">
                 <div className="navbar-header">
                   <Link href="/" onClick={handleClick} className="navbar-brand">
@@ -59,7 +54,8 @@ const HeaderS3 = ({ carts, hclass }) => {
                 </div>
               </div>
 
-              {/* Navigation Links */}
+            
+
               <div className="col-lg-6 col-md-1 col-1">
                 <div className="collapse navbar-collapse navigation-holder" id="navbar">
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
@@ -71,37 +67,25 @@ const HeaderS3 = ({ carts, hclass }) => {
                 </div>
               </div>
 
-              {/* Right Section: Search & Donate */}
               <div className="col-lg-4 col-md-2 col-2">
-                <div className="header-right d-flex align-items-center justify-content-end gap-3">
-
-                  {/* Donate Button */}
+                <div className="header-right">
                   <div className="close-form">
-                    <Link href="/donate" onClick={handleClick} className="theme-btn">
-                      {labels.donateNow}
-                    </Link>
+                    <Link href="/donate" onClick={handleClick} className="theme-btn">{labels.donateNow}</Link>
                   </div>
 
-                  {/* Search Icon */}
+                  <div className="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
+                    <MobileMenu />
+                  </div>
                   <div className="header-search-form-wrapper">
                     <div className="cart-search-contact">
-                      <button
-                        onClick={() => setMenuActive(!menuActive)}
-                        className="search-toggle-btn"
-                      >
+                      <button onClick={() => setMenuActive(!menuActive)} className="search-toggle-btn">
                         <i className={`fi ${menuActive ? 'ti-close' : 'ti-search'}`}></i>
                       </button>
                       <div className={`header-search-form ${menuActive ? 'header-search-content-toggle' : ''}`}>
                         <form onSubmit={handleSubmit}>
                           <div>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Search here..."
-                            />
-                            <button type="submit">
-                              <i className="fi flaticon-magnifying-glass"></i>
-                            </button>
+                            <input type="text" className="form-control" placeholder="Search here..." />
+                            <button type="submit"><i className="fi flaticon-magnifying-glass"></i></button>
                           </div>
                         </form>
                       </div>
@@ -110,7 +94,6 @@ const HeaderS3 = ({ carts, hclass }) => {
 
                 </div>
               </div>
-
             </div>
           </div>
         </nav>
@@ -120,7 +103,7 @@ const HeaderS3 = ({ carts, hclass }) => {
 };
 
 const mapStateToProps = (state) => ({
-  carts: state.cartList.cart,
+  carts: state.cartList.cart
 });
 
 export default connect(mapStateToProps, { removeFromCart })(HeaderS3);
