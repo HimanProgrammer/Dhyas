@@ -11,7 +11,9 @@
 
 	
 	@media(max-width: 767px) {
-		min-height: 350px;
+		margin-top: 0px;
+		min-height: 285px;
+        margin-bottom: -40px;
 	}
 
 	&:before {
