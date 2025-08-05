@@ -14,7 +14,7 @@ const ContactPage = () => {
     return (
         <Fragment>
             <Navbar hclass={'wpo-site-header'} Logo={Logo} />
-            <pageTitles pageTitle={titleText.contactPageTitle || 'Contact Us'} pagesub={titleText.contactPageSub || 'Contact'} />
+            <pageTitles pageTitle={titleText.contactPageTitle} pagesub={titleText.contactPageSub} />
             <ContactPage />
             <Footer />
             <Scrollbar />
