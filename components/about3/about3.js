@@ -5,7 +5,7 @@ import VideoModal from '../ModalVideo/VideoModal';
 
 import About1 from '/public/images/about/about-8.jpg';
 import About2 from '/public/images/about/about-9.jpg';
-import About3 from '/public/images/about/about-5.jpg';
+import About3 from '/public/images/about/about-51.jpg';
 import About4 from '/public/images/about/about-6.jpg';
 import About5 from '/public/images/about/about-7.jpg';
 import Aut1 from '/public/images/about/aut-1.jpg';

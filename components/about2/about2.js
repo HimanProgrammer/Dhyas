@@ -4,7 +4,7 @@ import Image from 'next/image';
 import aboutContent from '../../data/aboutContent.json';
 
 import About1 from '/public/images/about/about-3.jpg';
-import About2 from '/public/images/about/about-4.jpg';
+// import About2 from '/public/images/about/about-4.jpg';
 import Shape1 from '/public/images/about/shape4.svg';
 import Shape2 from '/public/images/about/shape11.svg';
 import Shape3 from '/public/images/healthcare.svg';
@@ -37,7 +37,7 @@ const AboutS2 = (props) => {
           <div className="col-lg-5 col-12">
             <div className="about-image">
               <div className="image1"><Image src={About1} alt="" /></div>
-              <div className="image2"><Image src={About2} alt="" /></div>
+              {/* <div className="image2"><Image src={About2} alt="" /></div> */}
               <div className="shape-love"><Image src={Shape1} alt="" /></div>
               {/* <div className="text">
                 <h2>Since</h2>
