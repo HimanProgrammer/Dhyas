@@ -34,7 +34,7 @@ const AboutS2 = (props) => {
     <section className={"" + props.hclass}>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6 col-12">
+          <div className="col-lg-5 col-12">
             <div className="about-image">
               <div className="image1"><Image src={About1} alt="" /></div>
               {/* <div className="image2"><Image src={About2} alt="" /></div> */}
@@ -47,7 +47,7 @@ const AboutS2 = (props) => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-12">
+          <div className="col-lg-7 col-12">
             <div className="right-content">
               <h2><Image src={Shape3} alt="" />{data.heading}</h2>
               <h3>{data.subHeading}</h3>
