@@ -5,10 +5,10 @@ import Image from "next/image";
 import Script from "next/script";
 
 // Data (adjust import paths to your project structure)
-import formLabels from "../data/donationFormLabels.json";
-import pageTitles from "../data/pageTitles.json";
-import paymentMethods from "../data/paymentMethods.json";
-import accountDetails from "../data/accountDetails.json";
+import formLabels from "../../data/donationFormLabels.json";
+import pageTitles from "../../data/pageTitles.json";
+import paymentMethods from "../../data/paymentMethods.json";
+import accountDetails from "../../data/accountDetails.json";
 
 // Static assets
 import qrImage from "/public/images/checkout/qr.jpeg";
