@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import FooterS2 from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 import CtaSectionS2 from '../../components/CtaSection/CtaSection';
 // Optional Sections (you can uncomment as needed)
 // import BecomeSection from '../../components/BecomeSection/BecomeSection';

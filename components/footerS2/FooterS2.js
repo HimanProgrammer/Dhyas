@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo-2.svg'
+import Logo from '/public/images/logo-2.png'
 import Services from '../../api/Services';
 
 import shape1 from '/public/images/f-shape5.svg';

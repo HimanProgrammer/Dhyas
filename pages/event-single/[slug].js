@@ -6,7 +6,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg'
+import Logo from '/public/images/logo-2.png'
 import event from '../../api/event';
 import ContactForm from './ContactForm';
 import blogs from '../../api/blogs';

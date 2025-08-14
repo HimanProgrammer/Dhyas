@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg'
+import Logo from '/public/images/logo-2.png'
 import causes from '../../api/causes';
 import Image from 'next/image';
 

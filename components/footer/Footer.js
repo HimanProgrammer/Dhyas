@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import footerData from '../../data/footerData.json';
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 
 const Footer = () => {
   const [lang, setLang] = useState('en');

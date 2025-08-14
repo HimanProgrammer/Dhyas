@@ -477,9 +477,9 @@
 }
 
 @media screen and (min-width: 992px) {
-	.wpo-site-header #navbar {
-		/*** hover effect ***/
-	}
+	// .wpo-site-header #navbar {
+	// 	/*** hover effect ***/
+	// }
 
 	.wpo-site-header #navbar li {
 		position: relative;
@@ -529,9 +529,9 @@
 }
 
 @media (max-width: 991px) {
-	.wpo-site-header {
-		/* class for show hide navigation */
-	}
+	// .wpo-site-header {
+	// 	/* class for show hide navigation */
+	// }
 
 	.wpo-site-header .container {
 		width: 100%;
@@ -1557,7 +1557,7 @@
 		margin-left: 23px;
 
 		img {
-			max-width: 170px;
+			max-width: 60px;
 		}
 	}
 

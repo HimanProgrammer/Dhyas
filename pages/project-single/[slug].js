@@ -6,7 +6,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Projects from '../../api/projects';
 import Footer from '../../components/footer/Footer';
-import logo from '/public/images/logo-2.svg'
+import logo from '/public/images/logo-2.png'
 import psingle1 from '/public/images/project-details/sing1.jpg'
 import psingle2 from '/public/images/project-details/sing2.jpg'
 import Image from 'next/image';

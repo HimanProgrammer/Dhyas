@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle';
 import BecomeVolunteerForm from '../../components/BecomeVolunteerForm/BecomeVolunteerForm';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 import Bgimg from '/public/images/volunteer.jpg';
 import Image from 'next/image';
 import pageTitles from '../../data/pageTitles.json';

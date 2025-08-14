@@ -7,7 +7,7 @@ import AboutS2 from '../../components/about2/about2';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 import TabSection from '../../components/tab/tabsection';
 
 import pageTitles from '../../data/pageTitles.json'; // ✅ Correct path

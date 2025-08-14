@@ -14,7 +14,7 @@ import simg2 from '/public/images/image-gallery/2.jpg';
 import simg3 from '/public/images/image-gallery/3.jpg';
 import simg4 from '/public/images/image-gallery/4.jpg';
 import Footer from '../../components/footer/Footer';
-import logo from '/public/images/logo-2.svg';
+import logo from '/public/images/logo-2.png';
 import VideoModal from '../../components/ModalVideo/VideoModal';
 import Image from 'next/image';
 

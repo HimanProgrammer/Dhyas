@@ -10,7 +10,7 @@ import MobileMenu from '../MobileMenu/MobileMenu';
 import { removeFromCart } from "../../store/actions/action";
 import { totalPrice } from "../../utils";
 
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 import headerLinks from '../../data/headerLinks.json';
 
 const HeaderS3 = ({ carts, hclass }) => {

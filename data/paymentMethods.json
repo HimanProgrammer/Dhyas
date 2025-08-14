@@ -1,0 +1,10 @@
+{
+  "en": [
+    { "id": "account", "label": "Account Donation" },
+    { "id": "qr", "label": "QR Code Donation" }
+  ],
+  "mr": [
+    { "id": "account", "label": "खात्यावर देणगी" },
+    { "id": "qr", "label": "QR कोडद्वारे देणगी" }
+  ]
+}

@@ -6,7 +6,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Contact from './contact';
-import logo from '/public/images/logo-2.svg'
+import logo from '/public/images/logo-2.png'
 import SkillProgress from './SkillProgress';
 import Image from 'next/image';
 

@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-2.svg'
+import Logo from '/public/images/logo-2.png'
 import shape from '/public/images/cause-single/shape.svg'
 import Icon from '/public/images/cause-single/icon.svg'
 import DonationForm from './DonationForm';
