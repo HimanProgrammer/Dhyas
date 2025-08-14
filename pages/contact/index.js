@@ -4,7 +4,7 @@ import Navbar from '../../components/NavbarS3/NavbarS3';
 import ContactPage from '../../components/Contactpage/Contactpage';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar'; 
-import Logo from '/public/images/logo-2.svg';
+import Logo from '/public/images/logo-2.png';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import pageTitles from '../../data/pageTitles.json';
 
