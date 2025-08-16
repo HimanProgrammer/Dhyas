@@ -196,7 +196,7 @@ const DonatePage = () => {
                   </div>
 
                   {/* Card Payment */}
-                  {/* {formData.paymentMethod === "card" && (
+                  {formData.paymentMethod === "card" && (
                     <div>
                       <ul className="list-unstyled d-flex overflow-auto gap-3 mb-3">
                         {[peyimg1, peyimg2, peyimg3, peyimg4].map((img, i) => (
@@ -237,7 +237,7 @@ const DonatePage = () => {
                         )}
                       </div>
                     </div>
-                  )} */}
+                  )}
 
                   {/* Account Payment */}
                   {formData.paymentMethod === "account" && (

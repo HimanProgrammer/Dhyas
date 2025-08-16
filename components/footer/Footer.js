@@ -30,17 +30,17 @@ const Footer = () => {
 
   return (
     <footer className="wpo-site-footer">
+         <hr />
       <div className="wpo-upper-footer">
         <div className="container">
-          <div className="row">
-
+          <div className="row text-dark">
             {/* Newsletter */}
             <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
               <div className="widget about-widget">
                 <div className="logo widget-title">
                   <Image src={Logo} alt="footer logo" />
                 </div>
-                <h3 className="text-light">{content?.newsletter?.title || 'Subscribe Newsletter'}</h3>
+                <h3 className="text-dark">{content?.newsletter?.title || 'Subscribe Newsletter'}</h3>
                 <p>{content?.newsletter?.description}</p>
                 <form className="newsletter-form">
                   <input

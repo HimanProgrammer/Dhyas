@@ -8,6 +8,7 @@
     font-size: 16px;
     z-index: 1;
     background: url(/images/footer-bg.png) center/cover no-repeat;
+    color: #1B2324;
 
     &::after {
         position: absolute;
@@ -17,7 +18,7 @@
         height: 100%;
         z-index: -1;
         content: '';
-        background: rgba(1, 1, 1, 0.96);
+        background:#FFF;;
     }
 
 
@@ -28,11 +29,11 @@
     }
 
     p {
-        color: $white;
+        color: #1B2324;
     }
 
     li {
-        color: $white;
+        color: #1B2324;
     }
 
     .container {
@@ -42,12 +43,16 @@
     .wpo-upper-footer {
         padding: 90px 0;
         position: relative;
+        color: #1B2324;
+
     }
 
     @media (max-width: 991px) {
 
         .wpo-upper-footer {
             padding: 50px 0 0;
+            color: #1B2324;
+
         }
     }
 
@@ -77,6 +82,8 @@
     .widget-title {
         margin-bottom: 35px;
         text-transform: capitalize;
+        color: #1B2324;
+
     }
 
     @media (max-width: 767px) {
@@ -89,7 +96,7 @@
 
     .widget-title {
         h3 {
-            color: $white;
+            color: #1B2324;
             font-size: 22px;
             font-weight: 700;
             margin-bottom: 0;
@@ -117,7 +124,7 @@
         ul {
             li {
                 display: flex;
-                color: #FFF;
+                color: #1B2324;
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 34px;
@@ -167,7 +174,7 @@
                 position: relative;
 
                 a {
-                    color: $white;
+                    color: #1B2324;
                     font-size: 15px;
                     font-size: 16px;
                     font-weight: 500;
@@ -205,14 +212,14 @@
     .locations-widget {
         ul {
             li {
-                color: $white;
+                color: #1B2324;
                 font-size: 18px;
                 font-weight: 600;
                 letter-spacing: -0.54px;
                 margin-bottom: 20px;
 
                 &:nth-child(2) {
-                    color: $theme-primary-color;
+                    color: #1B2324;
                     font-size: 20px;
                     font-weight: 500;
                     margin-bottom: 10px;
@@ -772,14 +779,14 @@
         }
 
         p {
-            color: $white;
+            color: #1B2324;
             font-size: 16px;
             font-weight: 400;
             line-height: 30px;
         }
 
         span {
-            color: $white;
+            color: #1B2324;
             font-size: 16px;
             font-weight: 400;
             line-height: 28px;
@@ -808,7 +815,7 @@
                 width: 86px;
                 height: 86px;
                 line-height: 85px;
-                color: $white;
+                color: #1B2324;
                 font-size: 35px;
                 text-align: center;
 
@@ -833,14 +840,14 @@
                 }
 
                 h3 {
-                    color: $white;
+                    color: #1B2324;
                     font-size: 18px;
                     font-weight: 500;
                     text-transform: capitalize;
                 }
 
                 span {
-                    color: $white;
+                    color: #1B2324;
                     font-size: 14px;
                     font-weight: 400;
                     text-transform: capitalize;
@@ -904,6 +911,7 @@
         .copyright {
             text-align: left;
             display: block;
+            color: #1B2324 !important;
 
             @media (max-width:991px) {
                 text-align: center;
@@ -928,7 +936,7 @@
                     border-radius: 35px;
                     background: rgba(251, 251, 253, 0.08);
                     text-align: center;
-                    color: $white;
+                    color: #1B2324;
                     font-size: 16px;
                     display: block;
                     margin: 0 8px;
