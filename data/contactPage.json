@@ -4,24 +4,24 @@
       {
         "title": "Address Line",
         "icon": "fi flaticon-home-address",
-        "lines": ["Bowery St, New York, 37 USA", "NY 10013, USA"]
+        "lines": ["Anand Hospital, Phulewadi Road, Vaijapur pin 423701"]
       },
       {
         "title": "Phone Number",
         "icon": "fi flaticon-phone-call",
-        "lines": ["+1255 - 568 - 6523 4374-221", "+1255 - 568 - 6523"]
+        "lines": ["+91 9421516551"]
       },
       {
         "title": "Email Address",
         "icon": "fi flaticon-mail-1",
-        "lines": ["contact@aidUs.com", "info@aidUs.com"]
+        "lines": ["amolaannadate@yahoo.co.in"]
       }
     ],
     "contact": {
       "heading": "Get in touch",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arc dolor.",
-      "formHeading": "Fill Up The Form",
-      "formNote": "Your email address will not be published. Required fields are marked *"
+      "description": "",
+      "formHeading": "Ask For Query",
+      "formNote": "We will get back to you as soon as possible."
     }
   },
   "mr": {
@@ -29,24 +29,24 @@
       {
         "title": "पत्ता",
         "icon": "fi flaticon-home-address",
-        "lines": ["बॉवरी स्ट्रीट, न्यू यॉर्क, ३७ यूएसए", "एनवाय १००१३, यूएसए"]
+        "lines": ["आनंद हॉस्पिटल, फुलेवाडी रोड, वैजापूर पिन-423701"]
       },
       {
         "title": "फोन नंबर",
         "icon": "fi flaticon-phone-call",
-        "lines": ["+१२५५ - ५६८ - ६५२३ ४३७४-२२१", "+१२५५ - ५६८ - ६५२३"]
+        "lines": ["+91 9421516551"]
       },
       {
         "title": "ईमेल पत्ता",
         "icon": "fi flaticon-mail-1",
-        "lines": ["contact@aidUs.com", "info@aidUs.com"]
+        "lines": ["amolaannadate@yahoo.co.in"]
       }
     ],
     "contact": {
       "heading": "संपर्क साधा",
-      "description": "लॉरम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर अ‍ॅडिपिसिंग एलिट, मॅटिस फॉसिबस ओडिओ, फ्यूजियात आर्क डोलर.",
+      "description": "",
       "formHeading": "फॉर्म भरा",
-      "formNote": "तुमचा ईमेल पत्ता प्रकाशित केला जाणार नाही. आवश्यक फील्ड * ने चिन्हांकित आहेत."
+      "formNote": ""
     }
   }
 }

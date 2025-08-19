@@ -2,35 +2,39 @@
   "en": {
     "newsletter": {
       "title": "Subscribe Newsletter",
-      "description": "These agencies specialize in leveraging various digital channels, such as social media advertising",
-      "placeholder": "Your email"
+      "description": "Dhyas Trust empowers rural India creating sustainable change with community participation.",
+      "placeholder": "Your email",
+      "icon": "fi fi-rs-envelope"
     },
     "services": {
       "title": "Services",
+      "icon": "fi fi-rs-cogs",
       "links": [
-        { "label": "Healthcare", "href": "/" },
-        { "label": "Education", "href": "/about" },
-        { "label": "Water Managements", "href": "/service" },
-        { "label": "Farmer Welfare", "href": "/blog" },
-        { "label": "Women Empowerment", "href": "/contact" }
+        { "label": "Healthcare", "href": "/", "icon": "fi fi-rs-heart" },
+        { "label": "Education", "href": "/about", "icon": "fi fi-rs-book" },
+        { "label": "Water Managements", "href": "/service", "icon": "fi fi-rs-droplet" },
+        { "label": "Farmer Welfare", "href": "/blog", "icon": "fi fi-rs-leaf" },
+        { "label": "Women Empowerment", "href": "/contact", "icon": "fi fi-rs-users" }
       ]
     },
     "usefulLinks": {
       "title": "Useful links",
+      "icon": "fi fi-rs-link",
       "links": [
-        { "label": "Home", "href": "/" },
-        { "label": "About us", "href": "/about" },
-        { "label": "Service", "href": "/service" },
-        { "label": "Blog", "href": "/blog" },
-        { "label": "Contact us", "href": "/contact" }
+        { "label": "Home", "href": "/", "icon": "fi fi-rs-home" },
+        { "label": "About us", "href": "/about", "icon": "fi fi-rs-info" },
+        { "label": "Service", "href": "/service", "icon": "fi fi-rs-cog" },
+        { "label": "Blog", "href": "/blog", "icon": "fi fi-rs-document" },
+        { "label": "Contact us", "href": "/contact", "icon": "fi fi-rs-phone" }
       ]
     },
     "locations": {
       "title": "Locations",
-      "address": "55 Main Street, 2nd block Malborne, Australia",
+      "icon": "fi fi-rs-marker",
+      "address": "Anand Hospital, Phulewadi Road, Vaijapur Pin-423701",
       "contact": "Contact",
-      "email": "support@logistika.com",
-      "phone": "+880 (123) 456 88"
+      "email": "amolaannadate@yahoo.co.in",
+      "phone": "+91 9421516551"
     },
     "copyright": "© 2025 Tech - non profit. All rights reserved."
   },
@@ -38,35 +42,39 @@
   "mr": {
     "newsletter": {
       "title": "न्यूजलेटर सदस्यता",
-      "description": "ही एजन्सीज सोशल मीडिया जाहिरातीसारख्या विविध डिजिटल चॅनेल्सचा लाभ घेतात.",
-      "placeholder": "तुमचा ईमेल"
+      "description": "ध्यास ट्रस्ट ग्रामीण भारत सशक्त बनवतो आणि समुदायाच्या सहभागातून शाश्वत बदल घडवतो.",
+      "placeholder": "तुमचा ईमेल",
+      "icon": "fi fi-rs-envelope"
     },
     "services": {
       "title": "सेवा",
+      "icon": "fi fi-rs-cogs",
       "links": [
-        { "label": "आरोग्य", "href": "/" },
-        { "label": "शिक्षण", "href": "/about" },
-        { "label": "जल व्यवस्थापन", "href": "/service" },
-        { "label": "शेतकरी कल्याण", "href": "/blog" },
-        { "label": "महिला सक्षमीकरण", "href": "/contact" }
+        { "label": "आरोग्य", "href": "/", "icon": "fi fi-rs-heart" },
+        { "label": "शिक्षण", "href": "/about", "icon": "fi fi-rs-book" },
+        { "label": "जल व्यवस्थापन", "href": "/service", "icon": "fi fi-rs-droplet" },
+        { "label": "शेतकरी कल्याण", "href": "/blog", "icon": "fi fi-rs-leaf" },
+        { "label": "महिला सक्षमीकरण", "href": "/contact", "icon": "fi fi-rs-users" }
       ]
     },
     "usefulLinks": {
       "title": "उपयुक्त लिंक्स",
+      "icon": "fi fi-rs-link",
       "links": [
-        { "label": "मुख्यपृष्ठ", "href": "/" },
-        { "label": "आमच्याबद्दल", "href": "/about" },
-        { "label": "सेवा", "href": "/service" },
-        { "label": "ब्लॉग", "href": "/blog" },
-        { "label": "संपर्क", "href": "/contact" }
+        { "label": "मुख्यपृष्ठ", "href": "/", "icon": "fi fi-rs-home" },
+        { "label": "आमच्याबद्दल", "href": "/about", "icon": "fi fi-rs-info" },
+        { "label": "सेवा", "href": "/service", "icon": "fi fi-rs-cog" },
+        { "label": "ब्लॉग", "href": "/blog", "icon": "fi fi-rs-document" },
+        { "label": "संपर्क", "href": "/contact", "icon": "fi fi-rs-phone" }
       ]
     },
     "locations": {
       "title": "ठिकाणे",
-      "address": "५५ मेन स्ट्रीट, दुसरा ब्लॉक, मेलबॉर्न, ऑस्ट्रेलिया",
+      "icon": "fi fi-rs-marker",
+      "address": "आनंद हॉस्पिटल, फुलेवाडी रोड, वैजापूर पिन-423701",
       "contact": "संपर्क",
-      "email": "support@logistika.com",
-      "phone": "+८८० (१२३) ४५६ ८८"
+      "phone": "+91 9421516551",
+      "email": "amolaannadate@yahoo.co.in"
     },
     "copyright": "© २०२५ tech - ना-नफा संस्था. सर्व हक्क राखीव."
   }

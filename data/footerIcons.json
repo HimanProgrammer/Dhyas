@@ -1,0 +1,19 @@
+{
+  "locations": {
+    "address": "FaMapMarkerAlt",
+    "email": "FaEnvelope",
+    "phone": "FaPhoneAlt"
+  },
+  "services": {
+    "title": "FaServicestack",
+    "links": ["FaLink", "FaLink", "FaLink", "FaLink", "FaLink"]
+  },
+  "usefulLinks": {
+    "title": "FaLink",
+    "links": ["FaLink", "FaLink", "FaLink", "FaLink", "FaLink"]
+  },
+  "newsletter": {
+    "title": "FaRegNewspaper",
+    "button": "FaPaperPlane"
+  }
+}

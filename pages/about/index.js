@@ -37,7 +37,7 @@ const AboutPage = () => {
       <PageTitle pageTitle={titleData.aboutPageTitle} pagesub={titleData.aboutPageSub} />
       <AboutS2 hclass="about-section-s4 section-padding" />
       <TabSection />
-      <CtaSection hclass="cta-section" />
+      <CtaSection hclass="cta-section mb-5" />
       <Footer />
       <Scrollbar />
     </Fragment>
